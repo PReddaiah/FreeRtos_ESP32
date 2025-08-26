@@ -1,0 +1,7 @@
+[1/4] C:\Windows\system32\cmd.exe /C "cd /D C:\Users\redda\Documents\GitHub\FreeRtos_ESP32\freeRtos_02\build\esp-idf\esptool_py && C:\Users\redda\.espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/Users/redda/esp/v5.4.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/redda/Documents/GitHub/FreeRtos_ESP32/freeRtos_02/build/partition_table/partition-table.bin C:/Users/redda/Documents/GitHub/FreeRtos_ESP32/freeRtos_02/build/freeRtos_02.bin"
+freeRtos_02.bin binary size 0x2baf0 bytes. Smallest app partition is 0x100000 bytes. 0xd4510 bytes (83%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] C:\Windows\system32\cmd.exe /C "cd /D C:\Users\redda\Documents\GitHub\FreeRtos_ESP32\freeRtos_02\build\bootloader\esp-idf\esptool_py && C:\Users\redda\.espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/Users/redda/esp/v5.4.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Users/redda/Documents/GitHub/FreeRtos_ESP32/freeRtos_02/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6580 bytes. 0xa80 bytes (9%) free.
+[3/4] No install step for 'bootloader'
+[4/4] Completed 'bootloader'

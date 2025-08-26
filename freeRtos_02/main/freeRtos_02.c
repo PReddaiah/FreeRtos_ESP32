@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include "freertos/freertos.h"
+#include "freertos/task.h"
+#include "esp_log.h"
+#define STACK_SIZE 2500
+const char * TAG = "freeRtos_ESP32";
+
+
+StackType_t xStack[ STACK_SIZE ];   //main task stack (task _b)
+StaticTask_t xTaskBuffer;           //task tcb struct (task _b)
+
+int num = 100;
+
+void vTask_a(void *para){
+    while (true)
+    {
+       ESP_LOGI(TAG,"Hello from task a with %d + subs",*(int *)para);
+
+       vTaskDelay(pdMS_TO_TICKS(1000));
+    }
+}
+
+void vTask_b(void *para){
+    while (true)
+    {
+       ESP_LOGI(TAG,"Hello from task b with static API ");
+       vTaskDelay(pdMS_TO_TICKS(1000));
+    }
+}
+
+void app_main(void)
+{
+    xTaskCreate(vTask_a,"Task A",3000,(void *)&num,1,NULL);
+    xTaskCreateStatic(vTask_b,"Task B",STACK_SIZE,NULL,1,xStack, &xTaskBuffer);
+}

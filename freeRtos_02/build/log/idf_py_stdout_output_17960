@@ -1,0 +1,416 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6276
+load:0x40078000,len:15748
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3860
+entry 0x4008063c
+[0;32mI (31) boot: ESP-IDF v5.4.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Aug 27 2025 01:06:44[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (32) boot: chip revision: v3.1[0m
+[0;32mI (35) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (39) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (46) boot: Enabling RNG early entropy source...[0m
+[0;32mI (51) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (73) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (79) boot: End of partition table[0m
+[0;32mI (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0979ch ( 38812) map[0m
+[0;32mI (103) esp_image: segment 1: paddr=000197c4 vaddr=3ff80000 size=0001ch (    28) load[0m
+[0;32mI (103) esp_image: segment 2: paddr=000197e8 vaddr=3ffb0000 size=022cch (  8908) load[0m
+[0;32mI (110) esp_image: segment 3: paddr=0001babc vaddr=40080000 size=0455ch ( 17756) load[0m
+[0;32mI (122) esp_image: segment 4: paddr=00020020 vaddr=400d0020 size=133c4h ( 78788) map[0m
+[0;32mI (149) esp_image: segment 5: paddr=000333ec vaddr=4008455c size=086d8h ( 34520) load[0m
+[0;32mI (169) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (169) boot: Disabling RNG early entropy source...[0m
+[0;32mI (179) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (188) app_init: Application information:[0m
+[0;32mI (188) app_init: Project name:     freeRtos_02[0m
+[0;32mI (192) app_init: App version:      fe7a6f1-dirty[0m
+[0;32mI (197) app_init: Compile time:     Aug 27 2025 01:04:34[0m
+[0;32mI (202) app_init: ELF file SHA256:  8ef1b502f...[0m
+[0;32mI (206) app_init: ESP-IDF:          v5.4.1[0m
+[0;32mI (210) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (214) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (218) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (222) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (228) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (233) heap_init: At 3FFB36A0 len 0002C960 (178 KiB): DRAM[0m
+[0;32mI (238) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (243) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (249) heap_init: At 4008CC34 len 000133CC (76 KiB): IRAM[0m
+[0;32mI (256) spi_flash: detected chip: generic[0m
+[0;32mI (258) spi_flash: flash io: dio[0m
+[0;33mW (261) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (274) main_task: Started on CPU0[0m
+[0;32mI (284) main_task: Calling app_main()[0m
+[0;32mI (284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (284) main_task: Returned from app_main()[0m
+[0;32mI (284) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (1284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (1294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (2284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (2294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (3284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (3294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (4284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (4294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (5284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (5294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (6284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (6294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (7284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (7294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (8284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (8294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (9284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (9294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (10284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (10294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (11284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (11294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (12284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (12294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (13284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (13294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (14284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (14294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (15284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (15294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (16284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (16294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (17284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (17294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (18284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (18294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (19284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (19294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (20284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (20294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (21284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (21294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (22284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (22294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (23284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (23294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (24284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (24294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (25284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (25294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (26284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (26294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (27284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (27294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (28284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (28294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (29284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (29294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (30284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (30294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (31284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (31294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (32284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (32294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (33284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (33294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (34284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (34294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (35284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (35294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (36284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (36294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (37284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (37294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (38284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (38294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (39284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (39294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (40284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (40294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (41284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (41294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (42284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (42294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (43284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (43294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (44284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (44294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (45284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (45294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (46284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (46294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (47284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (47294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (48284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (48294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (49284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (49294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (50284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (50294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (51284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (51294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (52284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (52294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (53284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (53294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (54284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (54294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (55284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (55294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (56284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (56294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (57284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (57294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (58284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (58294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (59284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (59294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (60284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (60294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (61284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (61294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (62284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (62294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (63284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (63294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (64284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (64294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (65284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (65294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (66284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (66294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (67284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (67294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (68284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (68294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (69284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (69294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (70284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (70294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (71284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (71294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (72284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (72294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (73284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (73294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (74284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (74294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (75284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (75294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (76284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (76294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (77284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (77294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (78284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (78294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (79284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (79294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (80284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (80294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (81284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (81294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (82284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (82294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (83284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (83294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (84284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (84294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (85284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (85294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (86284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (86294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (87284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (87294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (88284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (88294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (89284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (89294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (90284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (90294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (91284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (91294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (92284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (92294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (93284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (93294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (94284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (94294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (95284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (95294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (96284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (96294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (97284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (97294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (98284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (98294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (99284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (99294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (100284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (100294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (101284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (101294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (102284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (102294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (103284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (103294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (104284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (104294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (105284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (105294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (106284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (106294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (107284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (107294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (108284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (108294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (109284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (109294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (110284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (110294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (111284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (111294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (112284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (112294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (113284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (113294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (114284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (114294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (115284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (115294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (116284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (116294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (117284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (117294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (118284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (118294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (119284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (119294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (120284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (120294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (121284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (121294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (122284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (122294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (123284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (123294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (124284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (124294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (125284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (125294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (126284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (126294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (127284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (127294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (128284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (128294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (129284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (129294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (130284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (130294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (131284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (131294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (132284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (132294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (133284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (133294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (134284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (134294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (135284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (135294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (136284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (136294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (137284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (137294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (138284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (138294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (139284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (139294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (140284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (140294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (141284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (141294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (142284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (142294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (143284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (143294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (144284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (144294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (145284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (145294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (146284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (146294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (147284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (147294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (148284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (148294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (149284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (149294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (150284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (150294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (151284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (151294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (152284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (152294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (153284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (153294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (154284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (154294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (155284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (155294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (156284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (156294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (157284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (157294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (158284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (158294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (159284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (159294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (160284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (160294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (161284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (161294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (162284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (162294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (163284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (163294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (164284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (164294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (165284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (165294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (166284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (166294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (167284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (167294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (168284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (168294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (169284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (169294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (170284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (170294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (171284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (171294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (172284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (172294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (173284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (173294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (174284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (174294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (175284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (175294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (176284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (176294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (177284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (177294) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (178284) freeRtos_ESP32: Hello from task a with 100 + subs[0m
+[0;32mI (178294) freeRtos_ESP32: Hello from task b with static API [0m
