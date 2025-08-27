@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "freeRtos_03",
-    "project_version":    "83e6df1",
+    "project_version":    "5a5707a-dirty",
     "project_path":       "C:/Users/redda/Documents/GitHub/FreeRtos_ESP32/freeRtos_03",
     "idf_path":           "C:/Users/redda/esp/v5.4.1/esp-idf",
     "build_dir":          "C:/Users/redda/Documents/GitHub/FreeRtos_ESP32/freeRtos_03/build",

@@ -22,7 +22,7 @@ void vTask_a(void *para){
 }
 
 void vTask_b(void *para){
-      TickType_t xLastWakeTime;
+      TickType_t xLastWakeTime = xTaskGetTickCount();
     while(true){
         printf("Tick Count B: %ld \n",xTaskGetTickCount());
        ESP_LOGI(TAG,"Hello from task b with static API ");
