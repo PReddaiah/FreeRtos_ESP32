@@ -1,0 +1,185 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6276
+load:0x40078000,len:15748
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3860
+entry 0x4008063c
+[0;32mI (31) boot: ESP-IDF v5.4.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Aug 27 2025 11:56:58[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (32) boot: chip revision: v3.1[0m
+[0;32mI (35) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (39) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (46) boot: Enabling RNG early entropy source...[0m
+[0;32mI (51) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (73) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (79) boot: End of partition table[0m
+[0;32mI (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=097ach ( 38828) map[0m
+[0;32mI (103) esp_image: segment 1: paddr=000197d4 vaddr=3ff80000 size=0001ch (    28) load[0m
+[0;32mI (103) esp_image: segment 2: paddr=000197f8 vaddr=3ffb0000 size=022cch (  8908) load[0m
+[0;32mI (110) esp_image: segment 3: paddr=0001bacc vaddr=40080000 size=0454ch ( 17740) load[0m
+[0;32mI (122) esp_image: segment 4: paddr=00020020 vaddr=400d0020 size=133ech ( 78828) map[0m
+[0;32mI (149) esp_image: segment 5: paddr=00033414 vaddr=4008454c size=086e8h ( 34536) load[0m
+[0;32mI (169) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (169) boot: Disabling RNG early entropy source...[0m
+[0;32mI (179) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (188) app_init: Application information:[0m
+[0;32mI (188) app_init: Project name:     freeRtos_03[0m
+[0;32mI (192) app_init: App version:      83e6df1[0m
+[0;32mI (196) app_init: Compile time:     Aug 27 2025 11:55:05[0m
+[0;32mI (201) app_init: ELF file SHA256:  029f1a747...[0m
+[0;32mI (205) app_init: ESP-IDF:          v5.4.1[0m
+[0;32mI (209) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (213) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (217) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (221) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (227) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (232) heap_init: At 3FFB36A0 len 0002C960 (178 KiB): DRAM[0m
+[0;32mI (237) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (243) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (248) heap_init: At 4008CC34 len 000133CC (76 KiB): IRAM[0m
+[0;32mI (255) spi_flash: detected chip: generic[0m
+[0;32mI (257) spi_flash: flash io: dio[0m
+[0;33mW (260) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (273) main_task: Started on CPU0[0m
+[0;32mI (283) main_task: Calling app_main()[0m
+[0;32mI (283) freeRtos_ESP32: Tick Count A: 1[0m
+[0;32mI (283) main_task: Returned from app_main()[0m
+[0;32mI (283) freeRtos_ESP32: Tick Count B: 1[0m
+[0;32mI (283) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (1283) freeRtos_ESP32: Tick Count A: 101[0m
+[0;32mI (2283) freeRtos_ESP32: Tick Count A: 201[0m
+[0;32mI (3283) freeRtos_ESP32: Tick Count A: 301[0m
+[0;32mI (4283) freeRtos_ESP32: Tick Count A: 401[0m
+[0;32mI (5283) freeRtos_ESP32: Tick Count A: 501[0m
+[0;32mI (6283) freeRtos_ESP32: Tick Count A: 601[0m
+[0;32mI (7283) freeRtos_ESP32: Tick Count A: 701[0m
+[0;32mI (8283) freeRtos_ESP32: Tick Count A: 801[0m
+[0;32mI (9283) freeRtos_ESP32: Tick Count A: 901[0m
+[0;32mI (10283) freeRtos_ESP32: Tick Count A: 1001[0m
+[0;32mI (11283) freeRtos_ESP32: Tick Count A: 1101[0m
+[0;32mI (12283) freeRtos_ESP32: Tick Count A: 1201[0m
+[0;32mI (13283) freeRtos_ESP32: Tick Count A: 1301[0m
+[0;32mI (14283) freeRtos_ESP32: Tick Count A: 1401[0m
+[0;32mI (15283) freeRtos_ESP32: Tick Count A: 1501[0m
+[0;32mI (16283) freeRtos_ESP32: Tick Count A: 1601[0m
+[0;32mI (17283) freeRtos_ESP32: Tick Count A: 1701[0m
+[0;32mI (18283) freeRtos_ESP32: Tick Count A: 1801[0m
+[0;32mI (19283) freeRtos_ESP32: Tick Count A: 1901[0m
+[0;32mI (20283) freeRtos_ESP32: Tick Count A: 2001[0m
+[0;32mI (21283) freeRtos_ESP32: Tick Count A: 2101[0m
+[0;32mI (22283) freeRtos_ESP32: Tick Count A: 2201[0m
+[0;32mI (23283) freeRtos_ESP32: Tick Count A: 2301[0m
+[0;32mI (24283) freeRtos_ESP32: Tick Count A: 2401[0m
+[0;32mI (25283) freeRtos_ESP32: Tick Count A: 2501[0m
+[0;32mI (26283) freeRtos_ESP32: Tick Count A: 2601[0m
+[0;32mI (27283) freeRtos_ESP32: Tick Count A: 2701[0m
+[0;32mI (28283) freeRtos_ESP32: Tick Count A: 2801[0m
+[0;32mI (29283) freeRtos_ESP32: Tick Count A: 2901[0m
+[0;32mI (30283) freeRtos_ESP32: Tick Count A: 3001[0m
+[0;32mI (31283) freeRtos_ESP32: Tick Count A: 3101[0m
+[0;32mI (32283) freeRtos_ESP32: Tick Count A: 3201[0m
+[0;32mI (33283) freeRtos_ESP32: Tick Count A: 3301[0m
+[0;32mI (34283) freeRtos_ESP32: Tick Count A: 3401[0m
+[0;32mI (35283) freeRtos_ESP32: Tick Count A: 3501[0m
+[0;32mI (36283) freeRtos_ESP32: Tick Count A: 3601[0m
+[0;32mI (37283) freeRtos_ESP32: Tick Count A: 3701[0m
+[0;32mI (38283) freeRtos_ESP32: Tick Count A: 3801[0m
+[0;32mI (39283) freeRtos_ESP32: Tick Count A: 3901[0m
+[0;32mI (40283) freeRtos_ESP32: Tick Count A: 4001[0m
+[0;32mI (41283) freeRtos_ESP32: Tick Count A: 4101[0m
+[0;32mI (42283) freeRtos_ESP32: Tick Count A: 4201[0m
+[0;32mI (43283) freeRtos_ESP32: Tick Count A: 4301[0m
+[0;32mI (44283) freeRtos_ESP32: Tick Count A: 4401[0m
+[0;32mI (45283) freeRtos_ESP32: Tick Count A: 4501[0m
+[0;32mI (46283) freeRtos_ESP32: Tick Count A: 4601[0m
+[0;32mI (47283) freeRtos_ESP32: Tick Count A: 4701[0m
+[0;32mI (48283) freeRtos_ESP32: Tick Count A: 4801[0m
+[0;32mI (49283) freeRtos_ESP32: Tick Count A: 4901[0m
+[0;32mI (50283) freeRtos_ESP32: Tick Count A: 5001[0m
+[0;32mI (51283) freeRtos_ESP32: Tick Count A: 5101[0m
+[0;32mI (52283) freeRtos_ESP32: Tick Count A: 5201[0m
+[0;32mI (53283) freeRtos_ESP32: Tick Count A: 5301[0m
+[0;32mI (54283) freeRtos_ESP32: Tick Count A: 5401[0m
+[0;32mI (55283) freeRtos_ESP32: Tick Count A: 5501[0m
+[0;32mI (56283) freeRtos_ESP32: Tick Count A: 5601[0m
+[0;32mI (57283) freeRtos_ESP32: Tick Count A: 5701[0m
+[0;32mI (58283) freeRtos_ESP32: Tick Count A: 5801[0m
+[0;32mI (59283) freeRtos_ESP32: Tick Count A: 5901[0m
+[0;32mI (60283) freeRtos_ESP32: Tick Count A: 6001[0m
+[0;32mI (61283) freeRtos_ESP32: Tick Count A: 6101[0m
+[0;32mI (62283) freeRtos_ESP32: Tick Count A: 6201[0m
+[0;32mI (63283) freeRtos_ESP32: Tick Count A: 6301[0m
+[0;32mI (64283) freeRtos_ESP32: Tick Count A: 6401[0m
+[0;32mI (65283) freeRtos_ESP32: Tick Count A: 6501[0m
+[0;32mI (66283) freeRtos_ESP32: Tick Count A: 6601[0m
+[0;32mI (67283) freeRtos_ESP32: Tick Count A: 6701[0m
+[0;32mI (68283) freeRtos_ESP32: Tick Count A: 6801[0m
+[0;32mI (69283) freeRtos_ESP32: Tick Count A: 6901[0m
+[0;32mI (70283) freeRtos_ESP32: Tick Count A: 7001[0m
+[0;32mI (71283) freeRtos_ESP32: Tick Count A: 7101[0m
+[0;32mI (72283) freeRtos_ESP32: Tick Count A: 7201[0m
+[0;32mI (73283) freeRtos_ESP32: Tick Count A: 7301[0m
+[0;32mI (74283) freeRtos_ESP32: Tick Count A: 7401[0m
+[0;32mI (75283) freeRtos_ESP32: Tick Count A: 7501[0m
+[0;32mI (76283) freeRtos_ESP32: Tick Count A: 7601[0m
+[0;32mI (77283) freeRtos_ESP32: Tick Count A: 7701[0m
+[0;32mI (78283) freeRtos_ESP32: Tick Count A: 7801[0m
+[0;32mI (79283) freeRtos_ESP32: Tick Count A: 7901[0m
+[0;32mI (80283) freeRtos_ESP32: Tick Count A: 8001[0m
+[0;32mI (81283) freeRtos_ESP32: Tick Count A: 8101[0m
+[0;32mI (82283) freeRtos_ESP32: Tick Count A: 8201[0m
+[0;32mI (83283) freeRtos_ESP32: Tick Count A: 8301[0m
+[0;32mI (84283) freeRtos_ESP32: Tick Count A: 8401[0m
+[0;32mI (85283) freeRtos_ESP32: Tick Count A: 8501[0m
+[0;32mI (86283) freeRtos_ESP32: Tick Count A: 8601[0m
+[0;32mI (87283) freeRtos_ESP32: Tick Count A: 8701[0m
+[0;32mI (88283) freeRtos_ESP32: Tick Count A: 8801[0m
+[0;32mI (89283) freeRtos_ESP32: Tick Count A: 8901[0m
+[0;32mI (90283) freeRtos_ESP32: Tick Count A: 9001[0m
+[0;32mI (91283) freeRtos_ESP32: Tick Count A: 9101[0m
+[0;32mI (92283) freeRtos_ESP32: Tick Count A: 9201[0m
+[0;32mI (93283) freeRtos_ESP32: Tick Count A: 9301[0m
+[0;32mI (94283) freeRtos_ESP32: Tick Count A: 9401[0m
+[0;32mI (95283) freeRtos_ESP32: Tick Count A: 9501[0m
+[0;32mI (96283) freeRtos_ESP32: Tick Count A: 9601[0m
+[0;32mI (97283) freeRtos_ESP32: Tick Count A: 9701[0m
+[0;32mI (98283) freeRtos_ESP32: Tick Count A: 9801[0m
+[0;32mI (99283) freeRtos_ESP32: Tick Count A: 9901[0m
+[0;32mI (100283) freeRtos_ESP32: Tick Count A: 10001[0m
+[0;32mI (101283) freeRtos_ESP32: Tick Count A: 10101[0m
+[0;32mI (102283) freeRtos_ESP32: Tick Count A: 10201[0m
+[0;32mI (103283) freeRtos_ESP32: Tick Count A: 10301[0m
+[0;32mI (104283) freeRtos_ESP32: Tick Count A: 10401[0m
+[0;32mI (105283) freeRtos_ESP32: Tick Count A: 10501[0m
+[0;32mI (106283) freeRtos_ESP32: Tick Count A: 10601[0m
+[0;32mI (107283) freeRtos_ESP32: Tick Count A: 10701[0m
+[0;32mI (108283) freeRtos_ESP32: Tick Count A: 10801[0m
+[0;32mI (109283) freeRtos_ESP32: Tick Count A: 10901[0m
+[0;32mI (110283) freeRtos_ESP32: Tick Count A: 11001[0m
+[0;32mI (111283) freeRtos_ESP32: Tick Count A: 11101[0m
+[0;32mI (112283) freeRtos_ESP32: Tick Count A: 11201[0m
+[0;32mI (113283) freeRtos_ESP32: Tick Count A: 11301[0m
+[0;32mI (114283) freeRtos_ESP32: Tick Count A: 11401[0m
+[0;32mI (115283) freeRtos_ESP32: Tick Count A: 11501[0m
+[0;32mI (116283) freeRtos_ESP32: Tick Count A: 11601[0m
+[0;32mI (117283) freeRtos_ESP32: Tick Count A: 11701[0m
+[0;32mI (118283) freeRtos_ESP32: Tick Count A: 11801[0m
+[0;32mI (119283) freeRtos_ESP32: Tick Count A: 11901[0m
+[0;32mI (120283) freeRtos_ESP32: Tick Count A: 12001[0m
+[0;32mI (121283) freeRtos_ESP32: Tick Count A: 12101[0m
+[0;32mI (122283) freeRtos_ESP32: Tick Count A: 12201[0m
+[0;32mI (123283) freeRtos_ESP32: Tick Count A: 12301[0m
+[0;32mI (124283) freeRtos_ESP32: Tick Count A: 12401[0m

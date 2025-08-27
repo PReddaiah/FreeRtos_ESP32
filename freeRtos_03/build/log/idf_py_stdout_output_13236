@@ -1,0 +1,230 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6276
+load:0x40078000,len:15748
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3860
+entry 0x4008063c
+[0;32mI (31) boot: ESP-IDF v5.4.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Aug 27 2025 11:56:58[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (32) boot: chip revision: v3.1[0m
+[0;32mI (35) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (39) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (46) boot: Enabling RNG early entropy source...[0m
+[0;32mI (51) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (73) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (79) boot: End of partition table[0m
+[0;32mI (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=097bch ( 38844) map[0m
+[0;32mI (103) esp_image: segment 1: paddr=000197e4 vaddr=3ff80000 size=0001ch (    28) load[0m
+[0;32mI (103) esp_image: segment 2: paddr=00019808 vaddr=3ffb0000 size=022cch (  8908) load[0m
+[0;32mI (110) esp_image: segment 3: paddr=0001badc vaddr=40080000 size=0453ch ( 17724) load[0m
+[0;32mI (122) esp_image: segment 4: paddr=00020020 vaddr=400d0020 size=133dch ( 78812) map[0m
+[0;32mI (149) esp_image: segment 5: paddr=00033404 vaddr=4008453c size=086f8h ( 34552) load[0m
+[0;32mI (169) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (169) boot: Disabling RNG early entropy source...[0m
+[0;32mI (179) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (188) app_init: Application information:[0m
+[0;32mI (188) app_init: Project name:     freeRtos_03[0m
+[0;32mI (192) app_init: App version:      83e6df1[0m
+[0;32mI (196) app_init: Compile time:     Aug 27 2025 11:55:05[0m
+[0;32mI (201) app_init: ELF file SHA256:  bec065a3f...[0m
+[0;32mI (205) app_init: ESP-IDF:          v5.4.1[0m
+[0;32mI (209) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (213) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (217) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (221) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (227) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (232) heap_init: At 3FFB36A0 len 0002C960 (178 KiB): DRAM[0m
+[0;32mI (237) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (243) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (248) heap_init: At 4008CC34 len 000133CC (76 KiB): IRAM[0m
+[0;32mI (255) spi_flash: detected chip: generic[0m
+[0;32mI (257) spi_flash: flash io: dio[0m
+[0;33mW (260) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (273) main_task: Started on CPU0[0m
+[0;32mI (283) main_task: Calling app_main()[0m
+Tick Count A: 1I (283) freeRtos_ESP32: Hello from task a with 100 + subs
+[0;32mI (283) main_task: Returned from app_main()[0m
+Tick Count A: 1I (283) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 101I (1283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 102I (1293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 201I (2283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 202I (2293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 301I (3283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 302I (3293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 401I (4283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 402I (4293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 501I (5283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 502I (5293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 601I (6283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 602I (6293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 701I (7283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 702I (7293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 801I (8283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 802I (8293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 901I (9283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 902I (9293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 1001I (10283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 1002I (10293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 1101I (11283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 1102I (11293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 1201I (12283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 1202I (12293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 1301I (13283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 1302I (13293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 1401I (14283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 1402I (14293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 1501I (15283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 1502I (15293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 1601I (16283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 1602I (16293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 1701I (17283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 1702I (17293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 1801I (18283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 1802I (18293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 1901I (19283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 1902I (19293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 2001I (20283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 2002I (20293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 2101I (21283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 2102I (21293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 2201I (22283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 2202I (22293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 2301I (23283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 2302I (23293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 2401I (24283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 2402I (24293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 2501I (25283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 2502I (25293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 2601I (26283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 2602I (26293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 2701I (27283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 2702I (27293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 2801I (28283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 2802I (28293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 2901I (29283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 2902I (29293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 3001I (30283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 3002I (30293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 3101I (31283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 3102I (31293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 3201I (32283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 3202I (32293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 3301I (33283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 3302I (33293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 3401I (34283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 3402I (34293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 3501I (35283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 3502I (35293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 3601I (36283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 3602I (36293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 3701I (37283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 3702I (37293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 3801I (38283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 3802I (38293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 3901I (39283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 3902I (39293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 4001I (40283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 4002I (40293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 4101I (41283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 4102I (41293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 4201I (42283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 4202I (42293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 4301I (43283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 4302I (43293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 4401I (44283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 4402I (44293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 4501I (45283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 4502I (45293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 4601I (46283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 4602I (46293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 4701I (47283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 4702I (47293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 4801I (48283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 4802I (48293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 4901I (49283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 4902I (49293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 5001I (50283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 5002I (50293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 5101I (51283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 5102I (51293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 5201I (52283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 5202I (52293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 5301I (53283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 5302I (53293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 5401I (54283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 5402I (54293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 5501I (55283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 5502I (55293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 5601I (56283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 5602I (56293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 5701I (57283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 5702I (57293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 5801I (58283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 5802I (58293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 5901I (59283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 5902I (59293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 6001I (60283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 6002I (60293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 6101I (61283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 6102I (61293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 6201I (62283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 6202I (62293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 6301I (63283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 6302I (63293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 6401I (64283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 6402I (64293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 6501I (65283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 6502I (65293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 6601I (66283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 6602I (66293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 6701I (67283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 6702I (67293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 6801I (68283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 6802I (68293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 6901I (69283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 6902I (69293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 7001I (70283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 7002I (70293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 7101I (71283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 7102I (71293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 7201I (72283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 7202I (72293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 7301I (73283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 7302I (73293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 7401I (74283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 7402I (74293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 7501I (75283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 7502I (75293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 7601I (76283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 7602I (76293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 7701I (77283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 7702I (77293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 7801I (78283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 7802I (78293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 7901I (79283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 7902I (79293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 8001I (80283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 8002I (80293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 8101I (81283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 8102I (81293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 8201I (82283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 8202I (82293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 8301I (83283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 8302I (83293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 8401I (84283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 8402I (84293) freeRtos_ESP32: Hello from task b with static API 
+Tick Count A: 8501I (85283) freeRtos_ESP32: Hello from task a with 100 + subs
+Tick Count A: 8502I (85293) freeRtos_ESP32: Hello from task b with static API 

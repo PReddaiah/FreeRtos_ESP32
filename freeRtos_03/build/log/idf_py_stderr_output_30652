@@ -1,0 +1,223 @@
+[0;33m--- Warning: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM8 instead...[0m
+[0;33m--- esp-idf-monitor 1.6.2 on \\.\COM8 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x400818f1: panic_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400857f5: esp_system_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b535: abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x400818f1: panic_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400857f5: esp_system_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b535: abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x400818f1: panic_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400857f5: esp_system_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b535: abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x400818f1: panic_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400857f5: esp_system_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b535: abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x400818f1: panic_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400857f5: esp_system_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b535: abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x400818f1: panic_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400857f5: esp_system_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b535: abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x400818f1: panic_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400857f5: esp_system_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b535: abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x400818f1: panic_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400857f5: esp_system_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b535: abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x400818f1: panic_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400857f5: esp_system_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b535: abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x400818f1: panic_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400857f5: esp_system_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b535: abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x400818f1: panic_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400857f5: esp_system_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b535: abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x400818f1: panic_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400857f5: esp_system_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b535: abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x400818f1: panic_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400857f5: esp_system_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b535: abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x400818f1: panic_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400857f5: esp_system_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b535: abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x400818f1: panic_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400857f5: esp_system_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b535: abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x400818f1: panic_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400857f5: esp_system_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b535: abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x400818f1: panic_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400857f5: esp_system_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b535: abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x400818f1: panic_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400857f5: esp_system_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b535: abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x400818f1: panic_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400857f5: esp_system_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b535: abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x400818f1: panic_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400857f5: esp_system_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b535: abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x400818f1: panic_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400857f5: esp_system_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b535: abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x400818f1: panic_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400857f5: esp_system_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b535: abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x400818f1: panic_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400857f5: esp_system_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b535: abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x400818f1: panic_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x400857f5: esp_system_abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008b535: abort at C:/Users/redda/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x40086007: vPortTaskWrapper at C:/Users/redda/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:143
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0m

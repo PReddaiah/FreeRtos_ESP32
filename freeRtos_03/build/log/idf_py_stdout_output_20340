@@ -1,0 +1,993 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6276
+load:0x40078000,len:15748
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3860
+entry 0x4008063c
+[0;32mI (31) boot: ESP-IDF v5.4.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Aug 27 2025 11:56:58[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (32) boot: chip revision: v3.1[0m
+[0;32mI (35) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (39) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (46) boot: Enabling RNG early entropy source...[0m
+[0;32mI (51) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (73) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (79) boot: End of partition table[0m
+[0;32mI (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=097ach ( 38828) map[0m
+[0;32mI (103) esp_image: segment 1: paddr=000197d4 vaddr=3ff80000 size=0001ch (    28) load[0m
+[0;32mI (103) esp_image: segment 2: paddr=000197f8 vaddr=3ffb0000 size=022cch (  8908) load[0m
+[0;32mI (110) esp_image: segment 3: paddr=0001bacc vaddr=40080000 size=0454ch ( 17740) load[0m
+[0;32mI (122) esp_image: segment 4: paddr=00020020 vaddr=400d0020 size=133e8h ( 78824) map[0m
+[0;32mI (149) esp_image: segment 5: paddr=00033410 vaddr=4008454c size=086e8h ( 34536) load[0m
+[0;32mI (169) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (169) boot: Disabling RNG early entropy source...[0m
+[0;32mI (179) cpu_start: Multicore app[0m
+[0;32mI (188) cpu_start: Pro cpu start user code[0m
+[0;32mI (188) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (188) app_init: Application information:[0m
+[0;32mI (188) app_init: Project name:     freeRtos_03[0m
+[0;32mI (192) app_init: App version:      83e6df1[0m
+[0;32mI (196) app_init: Compile time:     Aug 27 2025 11:55:05[0m
+[0;32mI (201) app_init: ELF file SHA256:  94b523b49...[0m
+[0;32mI (205) app_init: ESP-IDF:          v5.4.1[0m
+[0;32mI (209) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (213) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (217) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (221) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (227) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (232) heap_init: At 3FFB36A0 len 0002C960 (178 KiB): DRAM[0m
+[0;32mI (237) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (243) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (248) heap_init: At 4008CC34 len 000133CC (76 KiB): IRAM[0m
+[0;32mI (255) spi_flash: detected chip: generic[0m
+[0;32mI (257) spi_flash: flash io: dio[0m
+[0;33mW (260) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (273) main_task: Started on CPU0[0m
+[0;32mI (283) main_task: Calling app_main()[0m
+[0;32mI (283) freeRtos_ESP32: Tick Count A: 1[0m
+[0;32mI (283) main_task: Returned from app_main()[0m
+[0;32mI (283) freeRtos_ESP32: Tick Count B: 1[0m
+[0;32mI (283) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (1283) freeRtos_ESP32: Tick Count A: 101[0m
+[0;32mI (2283) freeRtos_ESP32: Tick Count A: 201[0m
+[0;32mI (3283) freeRtos_ESP32: Tick Count A: 301[0m
+[0;32mI (4283) freeRtos_ESP32: Tick Count A: 401[0m
+[0;32mI (5283) freeRtos_ESP32: Tick Count A: 501[0m
+[0;32mI (5293) freeRtos_ESP32: Tick Count B: 502[0m
+[0;32mI (5293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (6283) freeRtos_ESP32: Tick Count A: 601[0m
+[0;32mI (7283) freeRtos_ESP32: Tick Count A: 701[0m
+[0;32mI (8283) freeRtos_ESP32: Tick Count A: 801[0m
+[0;32mI (9283) freeRtos_ESP32: Tick Count A: 901[0m
+[0;32mI (10283) freeRtos_ESP32: Tick Count A: 1001[0m
+[0;32mI (10293) freeRtos_ESP32: Tick Count B: 1002[0m
+[0;32mI (10293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (11283) freeRtos_ESP32: Tick Count A: 1101[0m
+[0;32mI (12283) freeRtos_ESP32: Tick Count A: 1201[0m
+[0;32mI (13283) freeRtos_ESP32: Tick Count A: 1301[0m
+[0;32mI (14283) freeRtos_ESP32: Tick Count A: 1401[0m
+[0;32mI (15283) freeRtos_ESP32: Tick Count A: 1501[0m
+[0;32mI (15293) freeRtos_ESP32: Tick Count B: 1502[0m
+[0;32mI (15293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (16283) freeRtos_ESP32: Tick Count A: 1601[0m
+[0;32mI (17283) freeRtos_ESP32: Tick Count A: 1701[0m
+[0;32mI (18283) freeRtos_ESP32: Tick Count A: 1801[0m
+[0;32mI (19283) freeRtos_ESP32: Tick Count A: 1901[0m
+[0;32mI (20283) freeRtos_ESP32: Tick Count A: 2001[0m
+[0;32mI (20293) freeRtos_ESP32: Tick Count B: 2002[0m
+[0;32mI (20293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (21283) freeRtos_ESP32: Tick Count A: 2101[0m
+[0;32mI (22283) freeRtos_ESP32: Tick Count A: 2201[0m
+[0;32mI (23283) freeRtos_ESP32: Tick Count A: 2301[0m
+[0;32mI (24283) freeRtos_ESP32: Tick Count A: 2401[0m
+[0;32mI (25283) freeRtos_ESP32: Tick Count A: 2501[0m
+[0;32mI (25293) freeRtos_ESP32: Tick Count B: 2502[0m
+[0;32mI (25293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (26283) freeRtos_ESP32: Tick Count A: 2601[0m
+[0;32mI (27283) freeRtos_ESP32: Tick Count A: 2701[0m
+[0;32mI (28283) freeRtos_ESP32: Tick Count A: 2801[0m
+[0;32mI (29283) freeRtos_ESP32: Tick Count A: 2901[0m
+[0;32mI (30283) freeRtos_ESP32: Tick Count A: 3001[0m
+[0;32mI (30293) freeRtos_ESP32: Tick Count B: 3002[0m
+[0;32mI (30293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (31283) freeRtos_ESP32: Tick Count A: 3101[0m
+[0;32mI (32283) freeRtos_ESP32: Tick Count A: 3201[0m
+[0;32mI (33283) freeRtos_ESP32: Tick Count A: 3301[0m
+[0;32mI (34283) freeRtos_ESP32: Tick Count A: 3401[0m
+[0;32mI (35283) freeRtos_ESP32: Tick Count A: 3501[0m
+[0;32mI (35293) freeRtos_ESP32: Tick Count B: 3502[0m
+[0;32mI (35293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (36283) freeRtos_ESP32: Tick Count A: 3601[0m
+[0;32mI (37283) freeRtos_ESP32: Tick Count A: 3701[0m
+[0;32mI (38283) freeRtos_ESP32: Tick Count A: 3801[0m
+[0;32mI (39283) freeRtos_ESP32: Tick Count A: 3901[0m
+[0;32mI (40283) freeRtos_ESP32: Tick Count A: 4001[0m
+[0;32mI (40293) freeRtos_ESP32: Tick Count B: 4002[0m
+[0;32mI (40293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (41283) freeRtos_ESP32: Tick Count A: 4101[0m
+[0;32mI (42283) freeRtos_ESP32: Tick Count A: 4201[0m
+[0;32mI (43283) freeRtos_ESP32: Tick Count A: 4301[0m
+[0;32mI (44283) freeRtos_ESP32: Tick Count A: 4401[0m
+[0;32mI (45283) freeRtos_ESP32: Tick Count A: 4501[0m
+[0;32mI (45293) freeRtos_ESP32: Tick Count B: 4502[0m
+[0;32mI (45293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (46283) freeRtos_ESP32: Tick Count A: 4601[0m
+[0;32mI (47283) freeRtos_ESP32: Tick Count A: 4701[0m
+[0;32mI (48283) freeRtos_ESP32: Tick Count A: 4801[0m
+[0;32mI (49283) freeRtos_ESP32: Tick Count A: 4901[0m
+[0;32mI (50283) freeRtos_ESP32: Tick Count A: 5001[0m
+[0;32mI (50293) freeRtos_ESP32: Tick Count B: 5002[0m
+[0;32mI (50293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (51283) freeRtos_ESP32: Tick Count A: 5101[0m
+[0;32mI (52283) freeRtos_ESP32: Tick Count A: 5201[0m
+[0;32mI (53283) freeRtos_ESP32: Tick Count A: 5301[0m
+[0;32mI (54283) freeRtos_ESP32: Tick Count A: 5401[0m
+[0;32mI (55283) freeRtos_ESP32: Tick Count A: 5501[0m
+[0;32mI (55293) freeRtos_ESP32: Tick Count B: 5502[0m
+[0;32mI (55293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (56283) freeRtos_ESP32: Tick Count A: 5601[0m
+[0;32mI (57283) freeRtos_ESP32: Tick Count A: 5701[0m
+[0;32mI (58283) freeRtos_ESP32: Tick Count A: 5801[0m
+[0;32mI (59283) freeRtos_ESP32: Tick Count A: 5901[0m
+[0;32mI (60283) freeRtos_ESP32: Tick Count A: 6001[0m
+[0;32mI (60293) freeRtos_ESP32: Tick Count B: 6002[0m
+[0;32mI (60293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (61283) freeRtos_ESP32: Tick Count A: 6101[0m
+[0;32mI (62283) freeRtos_ESP32: Tick Count A: 6201[0m
+[0;32mI (63283) freeRtos_ESP32: Tick Count A: 6301[0m
+[0;32mI (64283) freeRtos_ESP32: Tick Count A: 6401[0m
+[0;32mI (65283) freeRtos_ESP32: Tick Count A: 6501[0m
+[0;32mI (65293) freeRtos_ESP32: Tick Count B: 6502[0m
+[0;32mI (65293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (66283) freeRtos_ESP32: Tick Count A: 6601[0m
+[0;32mI (67283) freeRtos_ESP32: Tick Count A: 6701[0m
+[0;32mI (68283) freeRtos_ESP32: Tick Count A: 6801[0m
+[0;32mI (69283) freeRtos_ESP32: Tick Count A: 6901[0m
+[0;32mI (70283) freeRtos_ESP32: Tick Count A: 7001[0m
+[0;32mI (70293) freeRtos_ESP32: Tick Count B: 7002[0m
+[0;32mI (70293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (71283) freeRtos_ESP32: Tick Count A: 7101[0m
+[0;32mI (72283) freeRtos_ESP32: Tick Count A: 7201[0m
+[0;32mI (73283) freeRtos_ESP32: Tick Count A: 7301[0m
+[0;32mI (74283) freeRtos_ESP32: Tick Count A: 7401[0m
+[0;32mI (75283) freeRtos_ESP32: Tick Count A: 7501[0m
+[0;32mI (75293) freeRtos_ESP32: Tick Count B: 7502[0m
+[0;32mI (75293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (76283) freeRtos_ESP32: Tick Count A: 7601[0m
+[0;32mI (77283) freeRtos_ESP32: Tick Count A: 7701[0m
+[0;32mI (78283) freeRtos_ESP32: Tick Count A: 7801[0m
+[0;32mI (79283) freeRtos_ESP32: Tick Count A: 7901[0m
+[0;32mI (80283) freeRtos_ESP32: Tick Count A: 8001[0m
+[0;32mI (80293) freeRtos_ESP32: Tick Count B: 8002[0m
+[0;32mI (80293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (81283) freeRtos_ESP32: Tick Count A: 8101[0m
+[0;32mI (82283) freeRtos_ESP32: Tick Count A: 8201[0m
+[0;32mI (83283) freeRtos_ESP32: Tick Count A: 8301[0m
+[0;32mI (84283) freeRtos_ESP32: Tick Count A: 8401[0m
+[0;32mI (85283) freeRtos_ESP32: Tick Count A: 8501[0m
+[0;32mI (85293) freeRtos_ESP32: Tick Count B: 8502[0m
+[0;32mI (85293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (86283) freeRtos_ESP32: Tick Count A: 8601[0m
+[0;32mI (87283) freeRtos_ESP32: Tick Count A: 8701[0m
+[0;32mI (88283) freeRtos_ESP32: Tick Count A: 8801[0m
+[0;32mI (89283) freeRtos_ESP32: Tick Count A: 8901[0m
+[0;32mI (90283) freeRtos_ESP32: Tick Count A: 9001[0m
+[0;32mI (90293) freeRtos_ESP32: Tick Count B: 9002[0m
+[0;32mI (90293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (91283) freeRtos_ESP32: Tick Count A: 9101[0m
+[0;32mI (92283) freeRtos_ESP32: Tick Count A: 9201[0m
+[0;32mI (93283) freeRtos_ESP32: Tick Count A: 9301[0m
+[0;32mI (94283) freeRtos_ESP32: Tick Count A: 9401[0m
+[0;32mI (95283) freeRtos_ESP32: Tick Count A: 9501[0m
+[0;32mI (95293) freeRtos_ESP32: Tick Count B: 9502[0m
+[0;32mI (95293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (96283) freeRtos_ESP32: Tick Count A: 9601[0m
+[0;32mI (97283) freeRtos_ESP32: Tick Count A: 9701[0m
+[0;32mI (98283) freeRtos_ESP32: Tick Count A: 9801[0m
+[0;32mI (99283) freeRtos_ESP32: Tick Count A: 9901[0m
+[0;32mI (100283) freeRtos_ESP32: Tick Count A: 10001[0m
+[0;32mI (100293) freeRtos_ESP32: Tick Count B: 10002[0m
+[0;32mI (100293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (101283) freeRtos_ESP32: Tick Count A: 10101[0m
+[0;32mI (102283) freeRtos_ESP32: Tick Count A: 10201[0m
+[0;32mI (103283) freeRtos_ESP32: Tick Count A: 10301[0m
+[0;32mI (104283) freeRtos_ESP32: Tick Count A: 10401[0m
+[0;32mI (105283) freeRtos_ESP32: Tick Count A: 10501[0m
+[0;32mI (105293) freeRtos_ESP32: Tick Count B: 10502[0m
+[0;32mI (105293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (106283) freeRtos_ESP32: Tick Count A: 10601[0m
+[0;32mI (107283) freeRtos_ESP32: Tick Count A: 10701[0m
+[0;32mI (108283) freeRtos_ESP32: Tick Count A: 10801[0m
+[0;32mI (109283) freeRtos_ESP32: Tick Count A: 10901[0m
+[0;32mI (110283) freeRtos_ESP32: Tick Count A: 11001[0m
+[0;32mI (110293) freeRtos_ESP32: Tick Count B: 11002[0m
+[0;32mI (110293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (111283) freeRtos_ESP32: Tick Count A: 11101[0m
+[0;32mI (112283) freeRtos_ESP32: Tick Count A: 11201[0m
+[0;32mI (113283) freeRtos_ESP32: Tick Count A: 11301[0m
+[0;32mI (114283) freeRtos_ESP32: Tick Count A: 11401[0m
+[0;32mI (115283) freeRtos_ESP32: Tick Count A: 11501[0m
+[0;32mI (115293) freeRtos_ESP32: Tick Count B: 11502[0m
+[0;32mI (115293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (116283) freeRtos_ESP32: Tick Count A: 11601[0m
+[0;32mI (117283) freeRtos_ESP32: Tick Count A: 11701[0m
+[0;32mI (118283) freeRtos_ESP32: Tick Count A: 11801[0m
+[0;32mI (119283) freeRtos_ESP32: Tick Count A: 11901[0m
+[0;32mI (120283) freeRtos_ESP32: Tick Count A: 12001[0m
+[0;32mI (120293) freeRtos_ESP32: Tick Count B: 12002[0m
+[0;32mI (120293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (121283) freeRtos_ESP32: Tick Count A: 12101[0m
+[0;32mI (122283) freeRtos_ESP32: Tick Count A: 12201[0m
+[0;32mI (123283) freeRtos_ESP32: Tick Count A: 12301[0m
+[0;32mI (124283) freeRtos_ESP32: Tick Count A: 12401[0m
+[0;32mI (125283) freeRtos_ESP32: Tick Count A: 12501[0m
+[0;32mI (125293) freeRtos_ESP32: Tick Count B: 12502[0m
+[0;32mI (125293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (126283) freeRtos_ESP32: Tick Count A: 12601[0m
+[0;32mI (127283) freeRtos_ESP32: Tick Count A: 12701[0m
+[0;32mI (128283) freeRtos_ESP32: Tick Count A: 12801[0m
+[0;32mI (129283) freeRtos_ESP32: Tick Count A: 12901[0m
+[0;32mI (130283) freeRtos_ESP32: Tick Count A: 13001[0m
+[0;32mI (130293) freeRtos_ESP32: Tick Count B: 13002[0m
+[0;32mI (130293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (131283) freeRtos_ESP32: Tick Count A: 13101[0m
+[0;32mI (132283) freeRtos_ESP32: Tick Count A: 13201[0m
+[0;32mI (133283) freeRtos_ESP32: Tick Count A: 13301[0m
+[0;32mI (134283) freeRtos_ESP32: Tick Count A: 13401[0m
+[0;32mI (135283) freeRtos_ESP32: Tick Count A: 13501[0m
+[0;32mI (135293) freeRtos_ESP32: Tick Count B: 13502[0m
+[0;32mI (135293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (136283) freeRtos_ESP32: Tick Count A: 13601[0m
+[0;32mI (137283) freeRtos_ESP32: Tick Count A: 13701[0m
+[0;32mI (138283) freeRtos_ESP32: Tick Count A: 13801[0m
+[0;32mI (139283) freeRtos_ESP32: Tick Count A: 13901[0m
+[0;32mI (140283) freeRtos_ESP32: Tick Count A: 14001[0m
+[0;32mI (140293) freeRtos_ESP32: Tick Count B: 14002[0m
+[0;32mI (140293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (141283) freeRtos_ESP32: Tick Count A: 14101[0m
+[0;32mI (142283) freeRtos_ESP32: Tick Count A: 14201[0m
+[0;32mI (143283) freeRtos_ESP32: Tick Count A: 14301[0m
+[0;32mI (144283) freeRtos_ESP32: Tick Count A: 14401[0m
+[0;32mI (145283) freeRtos_ESP32: Tick Count A: 14501[0m
+[0;32mI (145293) freeRtos_ESP32: Tick Count B: 14502[0m
+[0;32mI (145293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (146283) freeRtos_ESP32: Tick Count A: 14601[0m
+[0;32mI (147283) freeRtos_ESP32: Tick Count A: 14701[0m
+[0;32mI (148283) freeRtos_ESP32: Tick Count A: 14801[0m
+[0;32mI (149283) freeRtos_ESP32: Tick Count A: 14901[0m
+[0;32mI (150283) freeRtos_ESP32: Tick Count A: 15001[0m
+[0;32mI (150293) freeRtos_ESP32: Tick Count B: 15002[0m
+[0;32mI (150293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (151283) freeRtos_ESP32: Tick Count A: 15101[0m
+[0;32mI (152283) freeRtos_ESP32: Tick Count A: 15201[0m
+[0;32mI (153283) freeRtos_ESP32: Tick Count A: 15301[0m
+[0;32mI (154283) freeRtos_ESP32: Tick Count A: 15401[0m
+[0;32mI (155283) freeRtos_ESP32: Tick Count A: 15501[0m
+[0;32mI (155293) freeRtos_ESP32: Tick Count B: 15502[0m
+[0;32mI (155293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (156283) freeRtos_ESP32: Tick Count A: 15601[0m
+[0;32mI (157283) freeRtos_ESP32: Tick Count A: 15701[0m
+[0;32mI (158283) freeRtos_ESP32: Tick Count A: 15801[0m
+[0;32mI (159283) freeRtos_ESP32: Tick Count A: 15901[0m
+[0;32mI (160283) freeRtos_ESP32: Tick Count A: 16001[0m
+[0;32mI (160293) freeRtos_ESP32: Tick Count B: 16002[0m
+[0;32mI (160293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (161283) freeRtos_ESP32: Tick Count A: 16101[0m
+[0;32mI (162283) freeRtos_ESP32: Tick Count A: 16201[0m
+[0;32mI (163283) freeRtos_ESP32: Tick Count A: 16301[0m
+[0;32mI (164283) freeRtos_ESP32: Tick Count A: 16401[0m
+[0;32mI (165283) freeRtos_ESP32: Tick Count A: 16501[0m
+[0;32mI (165293) freeRtos_ESP32: Tick Count B: 16502[0m
+[0;32mI (165293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (166283) freeRtos_ESP32: Tick Count A: 16601[0m
+[0;32mI (167283) freeRtos_ESP32: Tick Count A: 16701[0m
+[0;32mI (168283) freeRtos_ESP32: Tick Count A: 16801[0m
+[0;32mI (169283) freeRtos_ESP32: Tick Count A: 16901[0m
+[0;32mI (170283) freeRtos_ESP32: Tick Count A: 17001[0m
+[0;32mI (170293) freeRtos_ESP32: Tick Count B: 17002[0m
+[0;32mI (170293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (171283) freeRtos_ESP32: Tick Count A: 17101[0m
+[0;32mI (172283) freeRtos_ESP32: Tick Count A: 17201[0m
+[0;32mI (173283) freeRtos_ESP32: Tick Count A: 17301[0m
+[0;32mI (174283) freeRtos_ESP32: Tick Count A: 17401[0m
+[0;32mI (175283) freeRtos_ESP32: Tick Count A: 17501[0m
+[0;32mI (175293) freeRtos_ESP32: Tick Count B: 17502[0m
+[0;32mI (175293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (176283) freeRtos_ESP32: Tick Count A: 17601[0m
+[0;32mI (177283) freeRtos_ESP32: Tick Count A: 17701[0m
+[0;32mI (178283) freeRtos_ESP32: Tick Count A: 17801[0m
+[0;32mI (179283) freeRtos_ESP32: Tick Count A: 17901[0m
+[0;32mI (180283) freeRtos_ESP32: Tick Count A: 18001[0m
+[0;32mI (180293) freeRtos_ESP32: Tick Count B: 18002[0m
+[0;32mI (180293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (181283) freeRtos_ESP32: Tick Count A: 18101[0m
+[0;32mI (182283) freeRtos_ESP32: Tick Count A: 18201[0m
+[0;32mI (183283) freeRtos_ESP32: Tick Count A: 18301[0m
+[0;32mI (184283) freeRtos_ESP32: Tick Count A: 18401[0m
+[0;32mI (185283) freeRtos_ESP32: Tick Count A: 18501[0m
+[0;32mI (185293) freeRtos_ESP32: Tick Count B: 18502[0m
+[0;32mI (185293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (186283) freeRtos_ESP32: Tick Count A: 18601[0m
+[0;32mI (187283) freeRtos_ESP32: Tick Count A: 18701[0m
+[0;32mI (188283) freeRtos_ESP32: Tick Count A: 18801[0m
+[0;32mI (189283) freeRtos_ESP32: Tick Count A: 18901[0m
+[0;32mI (190283) freeRtos_ESP32: Tick Count A: 19001[0m
+[0;32mI (190293) freeRtos_ESP32: Tick Count B: 19002[0m
+[0;32mI (190293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (191283) freeRtos_ESP32: Tick Count A: 19101[0m
+[0;32mI (192283) freeRtos_ESP32: Tick Count A: 19201[0m
+[0;32mI (193283) freeRtos_ESP32: Tick Count A: 19301[0m
+[0;32mI (194283) freeRtos_ESP32: Tick Count A: 19401[0m
+[0;32mI (195283) freeRtos_ESP32: Tick Count A: 19501[0m
+[0;32mI (195293) freeRtos_ESP32: Tick Count B: 19502[0m
+[0;32mI (195293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (196283) freeRtos_ESP32: Tick Count A: 19601[0m
+[0;32mI (197283) freeRtos_ESP32: Tick Count A: 19701[0m
+[0;32mI (198283) freeRtos_ESP32: Tick Count A: 19801[0m
+[0;32mI (199283) freeRtos_ESP32: Tick Count A: 19901[0m
+[0;32mI (200283) freeRtos_ESP32: Tick Count A: 20001[0m
+[0;32mI (200293) freeRtos_ESP32: Tick Count B: 20002[0m
+[0;32mI (200293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (201283) freeRtos_ESP32: Tick Count A: 20101[0m
+[0;32mI (202283) freeRtos_ESP32: Tick Count A: 20201[0m
+[0;32mI (203283) freeRtos_ESP32: Tick Count A: 20301[0m
+[0;32mI (204283) freeRtos_ESP32: Tick Count A: 20401[0m
+[0;32mI (205283) freeRtos_ESP32: Tick Count A: 20501[0m
+[0;32mI (205293) freeRtos_ESP32: Tick Count B: 20502[0m
+[0;32mI (205293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (206283) freeRtos_ESP32: Tick Count A: 20601[0m
+[0;32mI (207283) freeRtos_ESP32: Tick Count A: 20701[0m
+[0;32mI (208283) freeRtos_ESP32: Tick Count A: 20801[0m
+[0;32mI (209283) freeRtos_ESP32: Tick Count A: 20901[0m
+[0;32mI (210283) freeRtos_ESP32: Tick Count A: 21001[0m
+[0;32mI (210293) freeRtos_ESP32: Tick Count B: 21002[0m
+[0;32mI (210293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (211283) freeRtos_ESP32: Tick Count A: 21101[0m
+[0;32mI (212283) freeRtos_ESP32: Tick Count A: 21201[0m
+[0;32mI (213283) freeRtos_ESP32: Tick Count A: 21301[0m
+[0;32mI (214283) freeRtos_ESP32: Tick Count A: 21401[0m
+[0;32mI (215283) freeRtos_ESP32: Tick Count A: 21501[0m
+[0;32mI (215293) freeRtos_ESP32: Tick Count B: 21502[0m
+[0;32mI (215293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (216283) freeRtos_ESP32: Tick Count A: 21601[0m
+[0;32mI (217283) freeRtos_ESP32: Tick Count A: 21701[0m
+[0;32mI (218283) freeRtos_ESP32: Tick Count A: 21801[0m
+[0;32mI (219283) freeRtos_ESP32: Tick Count A: 21901[0m
+[0;32mI (220283) freeRtos_ESP32: Tick Count A: 22001[0m
+[0;32mI (220293) freeRtos_ESP32: Tick Count B: 22002[0m
+[0;32mI (220293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (221283) freeRtos_ESP32: Tick Count A: 22101[0m
+[0;32mI (222283) freeRtos_ESP32: Tick Count A: 22201[0m
+[0;32mI (223283) freeRtos_ESP32: Tick Count A: 22301[0m
+[0;32mI (224283) freeRtos_ESP32: Tick Count A: 22401[0m
+[0;32mI (225283) freeRtos_ESP32: Tick Count A: 22501[0m
+[0;32mI (225293) freeRtos_ESP32: Tick Count B: 22502[0m
+[0;32mI (225293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (226283) freeRtos_ESP32: Tick Count A: 22601[0m
+[0;32mI (227283) freeRtos_ESP32: Tick Count A: 22701[0m
+[0;32mI (228283) freeRtos_ESP32: Tick Count A: 22801[0m
+[0;32mI (229283) freeRtos_ESP32: Tick Count A: 22901[0m
+[0;32mI (230283) freeRtos_ESP32: Tick Count A: 23001[0m
+[0;32mI (230293) freeRtos_ESP32: Tick Count B: 23002[0m
+[0;32mI (230293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (231283) freeRtos_ESP32: Tick Count A: 23101[0m
+[0;32mI (232283) freeRtos_ESP32: Tick Count A: 23201[0m
+[0;32mI (233283) freeRtos_ESP32: Tick Count A: 23301[0m
+[0;32mI (234283) freeRtos_ESP32: Tick Count A: 23401[0m
+[0;32mI (235283) freeRtos_ESP32: Tick Count A: 23501[0m
+[0;32mI (235293) freeRtos_ESP32: Tick Count B: 23502[0m
+[0;32mI (235293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (236283) freeRtos_ESP32: Tick Count A: 23601[0m
+[0;32mI (237283) freeRtos_ESP32: Tick Count A: 23701[0m
+[0;32mI (238283) freeRtos_ESP32: Tick Count A: 23801[0m
+[0;32mI (239283) freeRtos_ESP32: Tick Count A: 23901[0m
+[0;32mI (240283) freeRtos_ESP32: Tick Count A: 24001[0m
+[0;32mI (240293) freeRtos_ESP32: Tick Count B: 24002[0m
+[0;32mI (240293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (241283) freeRtos_ESP32: Tick Count A: 24101[0m
+[0;32mI (242283) freeRtos_ESP32: Tick Count A: 24201[0m
+[0;32mI (243283) freeRtos_ESP32: Tick Count A: 24301[0m
+[0;32mI (244283) freeRtos_ESP32: Tick Count A: 24401[0m
+[0;32mI (245283) freeRtos_ESP32: Tick Count A: 24501[0m
+[0;32mI (245293) freeRtos_ESP32: Tick Count B: 24502[0m
+[0;32mI (245293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (246283) freeRtos_ESP32: Tick Count A: 24601[0m
+[0;32mI (247283) freeRtos_ESP32: Tick Count A: 24701[0m
+[0;32mI (248283) freeRtos_ESP32: Tick Count A: 24801[0m
+[0;32mI (249283) freeRtos_ESP32: Tick Count A: 24901[0m
+[0;32mI (250283) freeRtos_ESP32: Tick Count A: 25001[0m
+[0;32mI (250293) freeRtos_ESP32: Tick Count B: 25002[0m
+[0;32mI (250293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (251283) freeRtos_ESP32: Tick Count A: 25101[0m
+[0;32mI (252283) freeRtos_ESP32: Tick Count A: 25201[0m
+[0;32mI (253283) freeRtos_ESP32: Tick Count A: 25301[0m
+[0;32mI (254283) freeRtos_ESP32: Tick Count A: 25401[0m
+[0;32mI (255283) freeRtos_ESP32: Tick Count A: 25501[0m
+[0;32mI (255293) freeRtos_ESP32: Tick Count B: 25502[0m
+[0;32mI (255293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (256283) freeRtos_ESP32: Tick Count A: 25601[0m
+[0;32mI (257283) freeRtos_ESP32: Tick Count A: 25701[0m
+[0;32mI (258283) freeRtos_ESP32: Tick Count A: 25801[0m
+[0;32mI (259283) freeRtos_ESP32: Tick Count A: 25901[0m
+[0;32mI (260283) freeRtos_ESP32: Tick Count A: 26001[0m
+[0;32mI (260293) freeRtos_ESP32: Tick Count B: 26002[0m
+[0;32mI (260293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (261283) freeRtos_ESP32: Tick Count A: 26101[0m
+[0;32mI (262283) freeRtos_ESP32: Tick Count A: 26201[0m
+[0;32mI (263283) freeRtos_ESP32: Tick Count A: 26301[0m
+[0;32mI (264283) freeRtos_ESP32: Tick Count A: 26401[0m
+[0;32mI (265283) freeRtos_ESP32: Tick Count A: 26501[0m
+[0;32mI (265293) freeRtos_ESP32: Tick Count B: 26502[0m
+[0;32mI (265293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (266283) freeRtos_ESP32: Tick Count A: 26601[0m
+[0;32mI (267283) freeRtos_ESP32: Tick Count A: 26701[0m
+[0;32mI (268283) freeRtos_ESP32: Tick Count A: 26801[0m
+[0;32mI (269283) freeRtos_ESP32: Tick Count A: 26901[0m
+[0;32mI (270283) freeRtos_ESP32: Tick Count A: 27001[0m
+[0;32mI (270293) freeRtos_ESP32: Tick Count B: 27002[0m
+[0;32mI (270293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (271283) freeRtos_ESP32: Tick Count A: 27101[0m
+[0;32mI (272283) freeRtos_ESP32: Tick Count A: 27201[0m
+[0;32mI (273283) freeRtos_ESP32: Tick Count A: 27301[0m
+[0;32mI (274283) freeRtos_ESP32: Tick Count A: 27401[0m
+[0;32mI (275283) freeRtos_ESP32: Tick Count A: 27501[0m
+[0;32mI (275293) freeRtos_ESP32: Tick Count B: 27502[0m
+[0;32mI (275293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (276283) freeRtos_ESP32: Tick Count A: 27601[0m
+[0;32mI (277283) freeRtos_ESP32: Tick Count A: 27701[0m
+[0;32mI (278283) freeRtos_ESP32: Tick Count A: 27801[0m
+[0;32mI (279283) freeRtos_ESP32: Tick Count A: 27901[0m
+[0;32mI (280283) freeRtos_ESP32: Tick Count A: 28001[0m
+[0;32mI (280293) freeRtos_ESP32: Tick Count B: 28002[0m
+[0;32mI (280293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (281283) freeRtos_ESP32: Tick Count A: 28101[0m
+[0;32mI (282283) freeRtos_ESP32: Tick Count A: 28201[0m
+[0;32mI (283283) freeRtos_ESP32: Tick Count A: 28301[0m
+[0;32mI (284283) freeRtos_ESP32: Tick Count A: 28401[0m
+[0;32mI (285283) freeRtos_ESP32: Tick Count A: 28501[0m
+[0;32mI (285293) freeRtos_ESP32: Tick Count B: 28502[0m
+[0;32mI (285293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (286283) freeRtos_ESP32: Tick Count A: 28601[0m
+[0;32mI (287283) freeRtos_ESP32: Tick Count A: 28701[0m
+[0;32mI (288283) freeRtos_ESP32: Tick Count A: 28801[0m
+[0;32mI (289283) freeRtos_ESP32: Tick Count A: 28901[0m
+[0;32mI (290283) freeRtos_ESP32: Tick Count A: 29001[0m
+[0;32mI (290293) freeRtos_ESP32: Tick Count B: 29002[0m
+[0;32mI (290293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (291283) freeRtos_ESP32: Tick Count A: 29101[0m
+[0;32mI (292283) freeRtos_ESP32: Tick Count A: 29201[0m
+[0;32mI (293283) freeRtos_ESP32: Tick Count A: 29301[0m
+[0;32mI (294283) freeRtos_ESP32: Tick Count A: 29401[0m
+[0;32mI (295283) freeRtos_ESP32: Tick Count A: 29501[0m
+[0;32mI (295293) freeRtos_ESP32: Tick Count B: 29502[0m
+[0;32mI (295293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (296283) freeRtos_ESP32: Tick Count A: 29601[0m
+[0;32mI (297283) freeRtos_ESP32: Tick Count A: 29701[0m
+[0;32mI (298283) freeRtos_ESP32: Tick Count A: 29801[0m
+[0;32mI (299283) freeRtos_ESP32: Tick Count A: 29901[0m
+[0;32mI (300283) freeRtos_ESP32: Tick Count A: 30001[0m
+[0;32mI (300293) freeRtos_ESP32: Tick Count B: 30002[0m
+[0;32mI (300293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (301283) freeRtos_ESP32: Tick Count A: 30101[0m
+[0;32mI (302283) freeRtos_ESP32: Tick Count A: 30201[0m
+[0;32mI (303283) freeRtos_ESP32: Tick Count A: 30301[0m
+[0;32mI (304283) freeRtos_ESP32: Tick Count A: 30401[0m
+[0;32mI (305283) freeRtos_ESP32: Tick Count A: 30501[0m
+[0;32mI (305293) freeRtos_ESP32: Tick Count B: 30502[0m
+[0;32mI (305293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (306283) freeRtos_ESP32: Tick Count A: 30601[0m
+[0;32mI (307283) freeRtos_ESP32: Tick Count A: 30701[0m
+[0;32mI (308283) freeRtos_ESP32: Tick Count A: 30801[0m
+[0;32mI (309283) freeRtos_ESP32: Tick Count A: 30901[0m
+[0;32mI (310283) freeRtos_ESP32: Tick Count A: 31001[0m
+[0;32mI (310293) freeRtos_ESP32: Tick Count B: 31002[0m
+[0;32mI (310293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (311283) freeRtos_ESP32: Tick Count A: 31101[0m
+[0;32mI (312283) freeRtos_ESP32: Tick Count A: 31201[0m
+[0;32mI (313283) freeRtos_ESP32: Tick Count A: 31301[0m
+[0;32mI (314283) freeRtos_ESP32: Tick Count A: 31401[0m
+[0;32mI (315283) freeRtos_ESP32: Tick Count A: 31501[0m
+[0;32mI (315293) freeRtos_ESP32: Tick Count B: 31502[0m
+[0;32mI (315293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (316283) freeRtos_ESP32: Tick Count A: 31601[0m
+[0;32mI (317283) freeRtos_ESP32: Tick Count A: 31701[0m
+[0;32mI (318283) freeRtos_ESP32: Tick Count A: 31801[0m
+[0;32mI (319283) freeRtos_ESP32: Tick Count A: 31901[0m
+[0;32mI (320283) freeRtos_ESP32: Tick Count A: 32001[0m
+[0;32mI (320293) freeRtos_ESP32: Tick Count B: 32002[0m
+[0;32mI (320293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (321283) freeRtos_ESP32: Tick Count A: 32101[0m
+[0;32mI (322283) freeRtos_ESP32: Tick Count A: 32201[0m
+[0;32mI (323283) freeRtos_ESP32: Tick Count A: 32301[0m
+[0;32mI (324283) freeRtos_ESP32: Tick Count A: 32401[0m
+[0;32mI (325283) freeRtos_ESP32: Tick Count A: 32501[0m
+[0;32mI (325293) freeRtos_ESP32: Tick Count B: 32502[0m
+[0;32mI (325293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (326283) freeRtos_ESP32: Tick Count A: 32601[0m
+[0;32mI (327283) freeRtos_ESP32: Tick Count A: 32701[0m
+[0;32mI (328283) freeRtos_ESP32: Tick Count A: 32801[0m
+[0;32mI (329283) freeRtos_ESP32: Tick Count A: 32901[0m
+[0;32mI (330283) freeRtos_ESP32: Tick Count A: 33001[0m
+[0;32mI (330293) freeRtos_ESP32: Tick Count B: 33002[0m
+[0;32mI (330293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (331283) freeRtos_ESP32: Tick Count A: 33101[0m
+[0;32mI (332283) freeRtos_ESP32: Tick Count A: 33201[0m
+[0;32mI (333283) freeRtos_ESP32: Tick Count A: 33301[0m
+[0;32mI (334283) freeRtos_ESP32: Tick Count A: 33401[0m
+[0;32mI (335283) freeRtos_ESP32: Tick Count A: 33501[0m
+[0;32mI (335293) freeRtos_ESP32: Tick Count B: 33502[0m
+[0;32mI (335293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (336283) freeRtos_ESP32: Tick Count A: 33601[0m
+[0;32mI (337283) freeRtos_ESP32: Tick Count A: 33701[0m
+[0;32mI (338283) freeRtos_ESP32: Tick Count A: 33801[0m
+[0;32mI (339283) freeRtos_ESP32: Tick Count A: 33901[0m
+[0;32mI (340283) freeRtos_ESP32: Tick Count A: 34001[0m
+[0;32mI (340293) freeRtos_ESP32: Tick Count B: 34002[0m
+[0;32mI (340293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (341283) freeRtos_ESP32: Tick Count A: 34101[0m
+[0;32mI (342283) freeRtos_ESP32: Tick Count A: 34201[0m
+[0;32mI (343283) freeRtos_ESP32: Tick Count A: 34301[0m
+[0;32mI (344283) freeRtos_ESP32: Tick Count A: 34401[0m
+[0;32mI (345283) freeRtos_ESP32: Tick Count A: 34501[0m
+[0;32mI (345293) freeRtos_ESP32: Tick Count B: 34502[0m
+[0;32mI (345293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (346283) freeRtos_ESP32: Tick Count A: 34601[0m
+[0;32mI (347283) freeRtos_ESP32: Tick Count A: 34701[0m
+[0;32mI (348283) freeRtos_ESP32: Tick Count A: 34801[0m
+[0;32mI (349283) freeRtos_ESP32: Tick Count A: 34901[0m
+[0;32mI (350283) freeRtos_ESP32: Tick Count A: 35001[0m
+[0;32mI (350293) freeRtos_ESP32: Tick Count B: 35002[0m
+[0;32mI (350293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (351283) freeRtos_ESP32: Tick Count A: 35101[0m
+[0;32mI (352283) freeRtos_ESP32: Tick Count A: 35201[0m
+[0;32mI (353283) freeRtos_ESP32: Tick Count A: 35301[0m
+[0;32mI (354283) freeRtos_ESP32: Tick Count A: 35401[0m
+[0;32mI (355283) freeRtos_ESP32: Tick Count A: 35501[0m
+[0;32mI (355293) freeRtos_ESP32: Tick Count B: 35502[0m
+[0;32mI (355293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (356283) freeRtos_ESP32: Tick Count A: 35601[0m
+[0;32mI (357283) freeRtos_ESP32: Tick Count A: 35701[0m
+[0;32mI (358283) freeRtos_ESP32: Tick Count A: 35801[0m
+[0;32mI (359283) freeRtos_ESP32: Tick Count A: 35901[0m
+[0;32mI (360283) freeRtos_ESP32: Tick Count A: 36001[0m
+[0;32mI (360293) freeRtos_ESP32: Tick Count B: 36002[0m
+[0;32mI (360293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (361283) freeRtos_ESP32: Tick Count A: 36101[0m
+[0;32mI (362283) freeRtos_ESP32: Tick Count A: 36201[0m
+[0;32mI (363283) freeRtos_ESP32: Tick Count A: 36301[0m
+[0;32mI (364283) freeRtos_ESP32: Tick Count A: 36401[0m
+[0;32mI (365283) freeRtos_ESP32: Tick Count A: 36501[0m
+[0;32mI (365293) freeRtos_ESP32: Tick Count B: 36502[0m
+[0;32mI (365293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (366283) freeRtos_ESP32: Tick Count A: 36601[0m
+[0;32mI (367283) freeRtos_ESP32: Tick Count A: 36701[0m
+[0;32mI (368283) freeRtos_ESP32: Tick Count A: 36801[0m
+[0;32mI (369283) freeRtos_ESP32: Tick Count A: 36901[0m
+[0;32mI (370283) freeRtos_ESP32: Tick Count A: 37001[0m
+[0;32mI (370293) freeRtos_ESP32: Tick Count B: 37002[0m
+[0;32mI (370293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (371283) freeRtos_ESP32: Tick Count A: 37101[0m
+[0;32mI (372283) freeRtos_ESP32: Tick Count A: 37201[0m
+[0;32mI (373283) freeRtos_ESP32: Tick Count A: 37301[0m
+[0;32mI (374283) freeRtos_ESP32: Tick Count A: 37401[0m
+[0;32mI (375283) freeRtos_ESP32: Tick Count A: 37501[0m
+[0;32mI (375293) freeRtos_ESP32: Tick Count B: 37502[0m
+[0;32mI (375293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (376283) freeRtos_ESP32: Tick Count A: 37601[0m
+[0;32mI (377283) freeRtos_ESP32: Tick Count A: 37701[0m
+[0;32mI (378283) freeRtos_ESP32: Tick Count A: 37801[0m
+[0;32mI (379283) freeRtos_ESP32: Tick Count A: 37901[0m
+[0;32mI (380283) freeRtos_ESP32: Tick Count A: 38001[0m
+[0;32mI (380293) freeRtos_ESP32: Tick Count B: 38002[0m
+[0;32mI (380293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (381283) freeRtos_ESP32: Tick Count A: 38101[0m
+[0;32mI (382283) freeRtos_ESP32: Tick Count A: 38201[0m
+[0;32mI (383283) freeRtos_ESP32: Tick Count A: 38301[0m
+[0;32mI (384283) freeRtos_ESP32: Tick Count A: 38401[0m
+[0;32mI (385283) freeRtos_ESP32: Tick Count A: 38501[0m
+[0;32mI (385293) freeRtos_ESP32: Tick Count B: 38502[0m
+[0;32mI (385293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (386283) freeRtos_ESP32: Tick Count A: 38601[0m
+[0;32mI (387283) freeRtos_ESP32: Tick Count A: 38701[0m
+[0;32mI (388283) freeRtos_ESP32: Tick Count A: 38801[0m
+[0;32mI (389283) freeRtos_ESP32: Tick Count A: 38901[0m
+[0;32mI (390283) freeRtos_ESP32: Tick Count A: 39001[0m
+[0;32mI (390293) freeRtos_ESP32: Tick Count B: 39002[0m
+[0;32mI (390293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (391283) freeRtos_ESP32: Tick Count A: 39101[0m
+[0;32mI (392283) freeRtos_ESP32: Tick Count A: 39201[0m
+[0;32mI (393283) freeRtos_ESP32: Tick Count A: 39301[0m
+[0;32mI (394283) freeRtos_ESP32: Tick Count A: 39401[0m
+[0;32mI (395283) freeRtos_ESP32: Tick Count A: 39501[0m
+[0;32mI (395293) freeRtos_ESP32: Tick Count B: 39502[0m
+[0;32mI (395293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (396283) freeRtos_ESP32: Tick Count A: 39601[0m
+[0;32mI (397283) freeRtos_ESP32: Tick Count A: 39701[0m
+[0;32mI (398283) freeRtos_ESP32: Tick Count A: 39801[0m
+[0;32mI (399283) freeRtos_ESP32: Tick Count A: 39901[0m
+[0;32mI (400283) freeRtos_ESP32: Tick Count A: 40001[0m
+[0;32mI (400293) freeRtos_ESP32: Tick Count B: 40002[0m
+[0;32mI (400293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (401283) freeRtos_ESP32: Tick Count A: 40101[0m
+[0;32mI (402283) freeRtos_ESP32: Tick Count A: 40201[0m
+[0;32mI (403283) freeRtos_ESP32: Tick Count A: 40301[0m
+[0;32mI (404283) freeRtos_ESP32: Tick Count A: 40401[0m
+[0;32mI (405283) freeRtos_ESP32: Tick Count A: 40501[0m
+[0;32mI (405293) freeRtos_ESP32: Tick Count B: 40502[0m
+[0;32mI (405293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (406283) freeRtos_ESP32: Tick Count A: 40601[0m
+[0;32mI (407283) freeRtos_ESP32: Tick Count A: 40701[0m
+[0;32mI (408283) freeRtos_ESP32: Tick Count A: 40801[0m
+[0;32mI (409283) freeRtos_ESP32: Tick Count A: 40901[0m
+[0;32mI (410283) freeRtos_ESP32: Tick Count A: 41001[0m
+[0;32mI (410293) freeRtos_ESP32: Tick Count B: 41002[0m
+[0;32mI (410293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (411283) freeRtos_ESP32: Tick Count A: 41101[0m
+[0;32mI (412283) freeRtos_ESP32: Tick Count A: 41201[0m
+[0;32mI (413283) freeRtos_ESP32: Tick Count A: 41301[0m
+[0;32mI (414283) freeRtos_ESP32: Tick Count A: 41401[0m
+[0;32mI (415283) freeRtos_ESP32: Tick Count A: 41501[0m
+[0;32mI (415293) freeRtos_ESP32: Tick Count B: 41502[0m
+[0;32mI (415293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (416283) freeRtos_ESP32: Tick Count A: 41601[0m
+[0;32mI (417283) freeRtos_ESP32: Tick Count A: 41701[0m
+[0;32mI (418283) freeRtos_ESP32: Tick Count A: 41801[0m
+[0;32mI (419283) freeRtos_ESP32: Tick Count A: 41901[0m
+[0;32mI (420283) freeRtos_ESP32: Tick Count A: 42001[0m
+[0;32mI (420293) freeRtos_ESP32: Tick Count B: 42002[0m
+[0;32mI (420293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (421283) freeRtos_ESP32: Tick Count A: 42101[0m
+[0;32mI (422283) freeRtos_ESP32: Tick Count A: 42201[0m
+[0;32mI (423283) freeRtos_ESP32: Tick Count A: 42301[0m
+[0;32mI (424283) freeRtos_ESP32: Tick Count A: 42401[0m
+[0;32mI (425283) freeRtos_ESP32: Tick Count A: 42501[0m
+[0;32mI (425293) freeRtos_ESP32: Tick Count B: 42502[0m
+[0;32mI (425293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (426283) freeRtos_ESP32: Tick Count A: 42601[0m
+[0;32mI (427283) freeRtos_ESP32: Tick Count A: 42701[0m
+[0;32mI (428283) freeRtos_ESP32: Tick Count A: 42801[0m
+[0;32mI (429283) freeRtos_ESP32: Tick Count A: 42901[0m
+[0;32mI (430283) freeRtos_ESP32: Tick Count A: 43001[0m
+[0;32mI (430293) freeRtos_ESP32: Tick Count B: 43002[0m
+[0;32mI (430293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (431283) freeRtos_ESP32: Tick Count A: 43101[0m
+[0;32mI (432283) freeRtos_ESP32: Tick Count A: 43201[0m
+[0;32mI (433283) freeRtos_ESP32: Tick Count A: 43301[0m
+[0;32mI (434283) freeRtos_ESP32: Tick Count A: 43401[0m
+[0;32mI (435283) freeRtos_ESP32: Tick Count A: 43501[0m
+[0;32mI (435293) freeRtos_ESP32: Tick Count B: 43502[0m
+[0;32mI (435293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (436283) freeRtos_ESP32: Tick Count A: 43601[0m
+[0;32mI (437283) freeRtos_ESP32: Tick Count A: 43701[0m
+[0;32mI (438283) freeRtos_ESP32: Tick Count A: 43801[0m
+[0;32mI (439283) freeRtos_ESP32: Tick Count A: 43901[0m
+[0;32mI (440283) freeRtos_ESP32: Tick Count A: 44001[0m
+[0;32mI (440293) freeRtos_ESP32: Tick Count B: 44002[0m
+[0;32mI (440293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (441283) freeRtos_ESP32: Tick Count A: 44101[0m
+[0;32mI (442283) freeRtos_ESP32: Tick Count A: 44201[0m
+[0;32mI (443283) freeRtos_ESP32: Tick Count A: 44301[0m
+[0;32mI (444283) freeRtos_ESP32: Tick Count A: 44401[0m
+[0;32mI (445283) freeRtos_ESP32: Tick Count A: 44501[0m
+[0;32mI (445293) freeRtos_ESP32: Tick Count B: 44502[0m
+[0;32mI (445293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (446283) freeRtos_ESP32: Tick Count A: 44601[0m
+[0;32mI (447283) freeRtos_ESP32: Tick Count A: 44701[0m
+[0;32mI (448283) freeRtos_ESP32: Tick Count A: 44801[0m
+[0;32mI (449283) freeRtos_ESP32: Tick Count A: 44901[0m
+[0;32mI (450283) freeRtos_ESP32: Tick Count A: 45001[0m
+[0;32mI (450293) freeRtos_ESP32: Tick Count B: 45002[0m
+[0;32mI (450293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (451283) freeRtos_ESP32: Tick Count A: 45101[0m
+[0;32mI (452283) freeRtos_ESP32: Tick Count A: 45201[0m
+[0;32mI (453283) freeRtos_ESP32: Tick Count A: 45301[0m
+[0;32mI (454283) freeRtos_ESP32: Tick Count A: 45401[0m
+[0;32mI (455283) freeRtos_ESP32: Tick Count A: 45501[0m
+[0;32mI (455293) freeRtos_ESP32: Tick Count B: 45502[0m
+[0;32mI (455293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (456283) freeRtos_ESP32: Tick Count A: 45601[0m
+[0;32mI (457283) freeRtos_ESP32: Tick Count A: 45701[0m
+[0;32mI (458283) freeRtos_ESP32: Tick Count A: 45801[0m
+[0;32mI (459283) freeRtos_ESP32: Tick Count A: 45901[0m
+[0;32mI (460283) freeRtos_ESP32: Tick Count A: 46001[0m
+[0;32mI (460293) freeRtos_ESP32: Tick Count B: 46002[0m
+[0;32mI (460293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (461283) freeRtos_ESP32: Tick Count A: 46101[0m
+[0;32mI (462283) freeRtos_ESP32: Tick Count A: 46201[0m
+[0;32mI (463283) freeRtos_ESP32: Tick Count A: 46301[0m
+[0;32mI (464283) freeRtos_ESP32: Tick Count A: 46401[0m
+[0;32mI (465283) freeRtos_ESP32: Tick Count A: 46501[0m
+[0;32mI (465293) freeRtos_ESP32: Tick Count B: 46502[0m
+[0;32mI (465293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (466283) freeRtos_ESP32: Tick Count A: 46601[0m
+[0;32mI (467283) freeRtos_ESP32: Tick Count A: 46701[0m
+[0;32mI (468283) freeRtos_ESP32: Tick Count A: 46801[0m
+[0;32mI (469283) freeRtos_ESP32: Tick Count A: 46901[0m
+[0;32mI (470283) freeRtos_ESP32: Tick Count A: 47001[0m
+[0;32mI (470293) freeRtos_ESP32: Tick Count B: 47002[0m
+[0;32mI (470293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (471283) freeRtos_ESP32: Tick Count A: 47101[0m
+[0;32mI (472283) freeRtos_ESP32: Tick Count A: 47201[0m
+[0;32mI (473283) freeRtos_ESP32: Tick Count A: 47301[0m
+[0;32mI (474283) freeRtos_ESP32: Tick Count A: 47401[0m
+[0;32mI (475283) freeRtos_ESP32: Tick Count A: 47501[0m
+[0;32mI (475293) freeRtos_ESP32: Tick Count B: 47502[0m
+[0;32mI (475293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (476283) freeRtos_ESP32: Tick Count A: 47601[0m
+[0;32mI (477283) freeRtos_ESP32: Tick Count A: 47701[0m
+[0;32mI (478283) freeRtos_ESP32: Tick Count A: 47801[0m
+[0;32mI (479283) freeRtos_ESP32: Tick Count A: 47901[0m
+[0;32mI (480283) freeRtos_ESP32: Tick Count A: 48001[0m
+[0;32mI (480293) freeRtos_ESP32: Tick Count B: 48002[0m
+[0;32mI (480293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (481283) freeRtos_ESP32: Tick Count A: 48101[0m
+[0;32mI (482283) freeRtos_ESP32: Tick Count A: 48201[0m
+[0;32mI (483283) freeRtos_ESP32: Tick Count A: 48301[0m
+[0;32mI (484283) freeRtos_ESP32: Tick Count A: 48401[0m
+[0;32mI (485283) freeRtos_ESP32: Tick Count A: 48501[0m
+[0;32mI (485293) freeRtos_ESP32: Tick Count B: 48502[0m
+[0;32mI (485293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (486283) freeRtos_ESP32: Tick Count A: 48601[0m
+[0;32mI (487283) freeRtos_ESP32: Tick Count A: 48701[0m
+[0;32mI (488283) freeRtos_ESP32: Tick Count A: 48801[0m
+[0;32mI (489283) freeRtos_ESP32: Tick Count A: 48901[0m
+[0;32mI (490283) freeRtos_ESP32: Tick Count A: 49001[0m
+[0;32mI (490293) freeRtos_ESP32: Tick Count B: 49002[0m
+[0;32mI (490293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (491283) freeRtos_ESP32: Tick Count A: 49101[0m
+[0;32mI (492283) freeRtos_ESP32: Tick Count A: 49201[0m
+[0;32mI (493283) freeRtos_ESP32: Tick Count A: 49301[0m
+[0;32mI (494283) freeRtos_ESP32: Tick Count A: 49401[0m
+[0;32mI (495283) freeRtos_ESP32: Tick Count A: 49501[0m
+[0;32mI (495293) freeRtos_ESP32: Tick Count B: 49502[0m
+[0;32mI (495293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (496283) freeRtos_ESP32: Tick Count A: 49601[0m
+[0;32mI (497283) freeRtos_ESP32: Tick Count A: 49701[0m
+[0;32mI (498283) freeRtos_ESP32: Tick Count A: 49801[0m
+[0;32mI (499283) freeRtos_ESP32: Tick Count A: 49901[0m
+[0;32mI (500283) freeRtos_ESP32: Tick Count A: 50001[0m
+[0;32mI (500293) freeRtos_ESP32: Tick Count B: 50002[0m
+[0;32mI (500293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (501283) freeRtos_ESP32: Tick Count A: 50101[0m
+[0;32mI (502283) freeRtos_ESP32: Tick Count A: 50201[0m
+[0;32mI (503283) freeRtos_ESP32: Tick Count A: 50301[0m
+[0;32mI (504283) freeRtos_ESP32: Tick Count A: 50401[0m
+[0;32mI (505283) freeRtos_ESP32: Tick Count A: 50501[0m
+[0;32mI (505293) freeRtos_ESP32: Tick Count B: 50502[0m
+[0;32mI (505293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (506283) freeRtos_ESP32: Tick Count A: 50601[0m
+[0;32mI (507283) freeRtos_ESP32: Tick Count A: 50701[0m
+[0;32mI (508283) freeRtos_ESP32: Tick Count A: 50801[0m
+[0;32mI (509283) freeRtos_ESP32: Tick Count A: 50901[0m
+[0;32mI (510283) freeRtos_ESP32: Tick Count A: 51001[0m
+[0;32mI (510293) freeRtos_ESP32: Tick Count B: 51002[0m
+[0;32mI (510293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (511283) freeRtos_ESP32: Tick Count A: 51101[0m
+[0;32mI (512283) freeRtos_ESP32: Tick Count A: 51201[0m
+[0;32mI (513283) freeRtos_ESP32: Tick Count A: 51301[0m
+[0;32mI (514283) freeRtos_ESP32: Tick Count A: 51401[0m
+[0;32mI (515283) freeRtos_ESP32: Tick Count A: 51501[0m
+[0;32mI (515293) freeRtos_ESP32: Tick Count B: 51502[0m
+[0;32mI (515293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (516283) freeRtos_ESP32: Tick Count A: 51601[0m
+[0;32mI (517283) freeRtos_ESP32: Tick Count A: 51701[0m
+[0;32mI (518283) freeRtos_ESP32: Tick Count A: 51801[0m
+[0;32mI (519283) freeRtos_ESP32: Tick Count A: 51901[0m
+[0;32mI (520283) freeRtos_ESP32: Tick Count A: 52001[0m
+[0;32mI (520293) freeRtos_ESP32: Tick Count B: 52002[0m
+[0;32mI (520293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (521283) freeRtos_ESP32: Tick Count A: 52101[0m
+[0;32mI (522283) freeRtos_ESP32: Tick Count A: 52201[0m
+[0;32mI (523283) freeRtos_ESP32: Tick Count A: 52301[0m
+[0;32mI (524283) freeRtos_ESP32: Tick Count A: 52401[0m
+[0;32mI (525283) freeRtos_ESP32: Tick Count A: 52501[0m
+[0;32mI (525293) freeRtos_ESP32: Tick Count B: 52502[0m
+[0;32mI (525293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (526283) freeRtos_ESP32: Tick Count A: 52601[0m
+[0;32mI (527283) freeRtos_ESP32: Tick Count A: 52701[0m
+[0;32mI (528283) freeRtos_ESP32: Tick Count A: 52801[0m
+[0;32mI (529283) freeRtos_ESP32: Tick Count A: 52901[0m
+[0;32mI (530283) freeRtos_ESP32: Tick Count A: 53001[0m
+[0;32mI (530293) freeRtos_ESP32: Tick Count B: 53002[0m
+[0;32mI (530293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (531283) freeRtos_ESP32: Tick Count A: 53101[0m
+[0;32mI (532283) freeRtos_ESP32: Tick Count A: 53201[0m
+[0;32mI (533283) freeRtos_ESP32: Tick Count A: 53301[0m
+[0;32mI (534283) freeRtos_ESP32: Tick Count A: 53401[0m
+[0;32mI (535283) freeRtos_ESP32: Tick Count A: 53501[0m
+[0;32mI (535293) freeRtos_ESP32: Tick Count B: 53502[0m
+[0;32mI (535293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (536283) freeRtos_ESP32: Tick Count A: 53601[0m
+[0;32mI (537283) freeRtos_ESP32: Tick Count A: 53701[0m
+[0;32mI (538283) freeRtos_ESP32: Tick Count A: 53801[0m
+[0;32mI (539283) freeRtos_ESP32: Tick Count A: 53901[0m
+[0;32mI (540283) freeRtos_ESP32: Tick Count A: 54001[0m
+[0;32mI (540293) freeRtos_ESP32: Tick Count B: 54002[0m
+[0;32mI (540293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (541283) freeRtos_ESP32: Tick Count A: 54101[0m
+[0;32mI (542283) freeRtos_ESP32: Tick Count A: 54201[0m
+[0;32mI (543283) freeRtos_ESP32: Tick Count A: 54301[0m
+[0;32mI (544283) freeRtos_ESP32: Tick Count A: 54401[0m
+[0;32mI (545283) freeRtos_ESP32: Tick Count A: 54501[0m
+[0;32mI (545293) freeRtos_ESP32: Tick Count B: 54502[0m
+[0;32mI (545293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (546283) freeRtos_ESP32: Tick Count A: 54601[0m
+[0;32mI (547283) freeRtos_ESP32: Tick Count A: 54701[0m
+[0;32mI (548283) freeRtos_ESP32: Tick Count A: 54801[0m
+[0;32mI (549283) freeRtos_ESP32: Tick Count A: 54901[0m
+[0;32mI (550283) freeRtos_ESP32: Tick Count A: 55001[0m
+[0;32mI (550293) freeRtos_ESP32: Tick Count B: 55002[0m
+[0;32mI (550293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (551283) freeRtos_ESP32: Tick Count A: 55101[0m
+[0;32mI (552283) freeRtos_ESP32: Tick Count A: 55201[0m
+[0;32mI (553283) freeRtos_ESP32: Tick Count A: 55301[0m
+[0;32mI (554283) freeRtos_ESP32: Tick Count A: 55401[0m
+[0;32mI (555283) freeRtos_ESP32: Tick Count A: 55501[0m
+[0;32mI (555293) freeRtos_ESP32: Tick Count B: 55502[0m
+[0;32mI (555293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (556283) freeRtos_ESP32: Tick Count A: 55601[0m
+[0;32mI (557283) freeRtos_ESP32: Tick Count A: 55701[0m
+[0;32mI (558283) freeRtos_ESP32: Tick Count A: 55801[0m
+[0;32mI (559283) freeRtos_ESP32: Tick Count A: 55901[0m
+[0;32mI (560283) freeRtos_ESP32: Tick Count A: 56001[0m
+[0;32mI (560293) freeRtos_ESP32: Tick Count B: 56002[0m
+[0;32mI (560293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (561283) freeRtos_ESP32: Tick Count A: 56101[0m
+[0;32mI (562283) freeRtos_ESP32: Tick Count A: 56201[0m
+[0;32mI (563283) freeRtos_ESP32: Tick Count A: 56301[0m
+[0;32mI (564283) freeRtos_ESP32: Tick Count A: 56401[0m
+[0;32mI (565283) freeRtos_ESP32: Tick Count A: 56501[0m
+[0;32mI (565293) freeRtos_ESP32: Tick Count B: 56502[0m
+[0;32mI (565293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (566283) freeRtos_ESP32: Tick Count A: 56601[0m
+[0;32mI (567283) freeRtos_ESP32: Tick Count A: 56701[0m
+[0;32mI (568283) freeRtos_ESP32: Tick Count A: 56801[0m
+[0;32mI (569283) freeRtos_ESP32: Tick Count A: 56901[0m
+[0;32mI (570283) freeRtos_ESP32: Tick Count A: 57001[0m
+[0;32mI (570293) freeRtos_ESP32: Tick Count B: 57002[0m
+[0;32mI (570293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (571283) freeRtos_ESP32: Tick Count A: 57101[0m
+[0;32mI (572283) freeRtos_ESP32: Tick Count A: 57201[0m
+[0;32mI (573283) freeRtos_ESP32: Tick Count A: 57301[0m
+[0;32mI (574283) freeRtos_ESP32: Tick Count A: 57401[0m
+[0;32mI (575283) freeRtos_ESP32: Tick Count A: 57501[0m
+[0;32mI (575293) freeRtos_ESP32: Tick Count B: 57502[0m
+[0;32mI (575293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (576283) freeRtos_ESP32: Tick Count A: 57601[0m
+[0;32mI (577283) freeRtos_ESP32: Tick Count A: 57701[0m
+[0;32mI (578283) freeRtos_ESP32: Tick Count A: 57801[0m
+[0;32mI (579283) freeRtos_ESP32: Tick Count A: 57901[0m
+[0;32mI (580283) freeRtos_ESP32: Tick Count A: 58001[0m
+[0;32mI (580293) freeRtos_ESP32: Tick Count B: 58002[0m
+[0;32mI (580293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (581283) freeRtos_ESP32: Tick Count A: 58101[0m
+[0;32mI (582283) freeRtos_ESP32: Tick Count A: 58201[0m
+[0;32mI (583283) freeRtos_ESP32: Tick Count A: 58301[0m
+[0;32mI (584283) freeRtos_ESP32: Tick Count A: 58401[0m
+[0;32mI (585283) freeRtos_ESP32: Tick Count A: 58501[0m
+[0;32mI (585293) freeRtos_ESP32: Tick Count B: 58502[0m
+[0;32mI (585293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (586283) freeRtos_ESP32: Tick Count A: 58601[0m
+[0;32mI (587283) freeRtos_ESP32: Tick Count A: 58701[0m
+[0;32mI (588283) freeRtos_ESP32: Tick Count A: 58801[0m
+[0;32mI (589283) freeRtos_ESP32: Tick Count A: 58901[0m
+[0;32mI (590283) freeRtos_ESP32: Tick Count A: 59001[0m
+[0;32mI (590293) freeRtos_ESP32: Tick Count B: 59002[0m
+[0;32mI (590293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (591283) freeRtos_ESP32: Tick Count A: 59101[0m
+[0;32mI (592283) freeRtos_ESP32: Tick Count A: 59201[0m
+[0;32mI (593283) freeRtos_ESP32: Tick Count A: 59301[0m
+[0;32mI (594283) freeRtos_ESP32: Tick Count A: 59401[0m
+[0;32mI (595283) freeRtos_ESP32: Tick Count A: 59501[0m
+[0;32mI (595293) freeRtos_ESP32: Tick Count B: 59502[0m
+[0;32mI (595293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (596283) freeRtos_ESP32: Tick Count A: 59601[0m
+[0;32mI (597283) freeRtos_ESP32: Tick Count A: 59701[0m
+[0;32mI (598283) freeRtos_ESP32: Tick Count A: 59801[0m
+[0;32mI (599283) freeRtos_ESP32: Tick Count A: 59901[0m
+[0;32mI (600283) freeRtos_ESP32: Tick Count A: 60001[0m
+[0;32mI (600293) freeRtos_ESP32: Tick Count B: 60002[0m
+[0;32mI (600293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (601283) freeRtos_ESP32: Tick Count A: 60101[0m
+[0;32mI (602283) freeRtos_ESP32: Tick Count A: 60201[0m
+[0;32mI (603283) freeRtos_ESP32: Tick Count A: 60301[0m
+[0;32mI (604283) freeRtos_ESP32: Tick Count A: 60401[0m
+[0;32mI (605283) freeRtos_ESP32: Tick Count A: 60501[0m
+[0;32mI (605293) freeRtos_ESP32: Tick Count B: 60502[0m
+[0;32mI (605293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (606283) freeRtos_ESP32: Tick Count A: 60601[0m
+[0;32mI (607283) freeRtos_ESP32: Tick Count A: 60701[0m
+[0;32mI (608283) freeRtos_ESP32: Tick Count A: 60801[0m
+[0;32mI (609283) freeRtos_ESP32: Tick Count A: 60901[0m
+[0;32mI (610283) freeRtos_ESP32: Tick Count A: 61001[0m
+[0;32mI (610293) freeRtos_ESP32: Tick Count B: 61002[0m
+[0;32mI (610293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (611283) freeRtos_ESP32: Tick Count A: 61101[0m
+[0;32mI (612283) freeRtos_ESP32: Tick Count A: 61201[0m
+[0;32mI (613283) freeRtos_ESP32: Tick Count A: 61301[0m
+[0;32mI (614283) freeRtos_ESP32: Tick Count A: 61401[0m
+[0;32mI (615283) freeRtos_ESP32: Tick Count A: 61501[0m
+[0;32mI (615293) freeRtos_ESP32: Tick Count B: 61502[0m
+[0;32mI (615293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (616283) freeRtos_ESP32: Tick Count A: 61601[0m
+[0;32mI (617283) freeRtos_ESP32: Tick Count A: 61701[0m
+[0;32mI (618283) freeRtos_ESP32: Tick Count A: 61801[0m
+[0;32mI (619283) freeRtos_ESP32: Tick Count A: 61901[0m
+[0;32mI (620283) freeRtos_ESP32: Tick Count A: 62001[0m
+[0;32mI (620293) freeRtos_ESP32: Tick Count B: 62002[0m
+[0;32mI (620293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (621283) freeRtos_ESP32: Tick Count A: 62101[0m
+[0;32mI (622283) freeRtos_ESP32: Tick Count A: 62201[0m
+[0;32mI (623283) freeRtos_ESP32: Tick Count A: 62301[0m
+[0;32mI (624283) freeRtos_ESP32: Tick Count A: 62401[0m
+[0;32mI (625283) freeRtos_ESP32: Tick Count A: 62501[0m
+[0;32mI (625293) freeRtos_ESP32: Tick Count B: 62502[0m
+[0;32mI (625293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (626283) freeRtos_ESP32: Tick Count A: 62601[0m
+[0;32mI (627283) freeRtos_ESP32: Tick Count A: 62701[0m
+[0;32mI (628283) freeRtos_ESP32: Tick Count A: 62801[0m
+[0;32mI (629283) freeRtos_ESP32: Tick Count A: 62901[0m
+[0;32mI (630283) freeRtos_ESP32: Tick Count A: 63001[0m
+[0;32mI (630293) freeRtos_ESP32: Tick Count B: 63002[0m
+[0;32mI (630293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (631283) freeRtos_ESP32: Tick Count A: 63101[0m
+[0;32mI (632283) freeRtos_ESP32: Tick Count A: 63201[0m
+[0;32mI (633283) freeRtos_ESP32: Tick Count A: 63301[0m
+[0;32mI (634283) freeRtos_ESP32: Tick Count A: 63401[0m
+[0;32mI (635283) freeRtos_ESP32: Tick Count A: 63501[0m
+[0;32mI (635293) freeRtos_ESP32: Tick Count B: 63502[0m
+[0;32mI (635293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (636283) freeRtos_ESP32: Tick Count A: 63601[0m
+[0;32mI (637283) freeRtos_ESP32: Tick Count A: 63701[0m
+[0;32mI (638283) freeRtos_ESP32: Tick Count A: 63801[0m
+[0;32mI (639283) freeRtos_ESP32: Tick Count A: 63901[0m
+[0;32mI (640283) freeRtos_ESP32: Tick Count A: 64001[0m
+[0;32mI (640293) freeRtos_ESP32: Tick Count B: 64002[0m
+[0;32mI (640293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (641283) freeRtos_ESP32: Tick Count A: 64101[0m
+[0;32mI (642283) freeRtos_ESP32: Tick Count A: 64201[0m
+[0;32mI (643283) freeRtos_ESP32: Tick Count A: 64301[0m
+[0;32mI (644283) freeRtos_ESP32: Tick Count A: 64401[0m
+[0;32mI (645283) freeRtos_ESP32: Tick Count A: 64501[0m
+[0;32mI (645293) freeRtos_ESP32: Tick Count B: 64502[0m
+[0;32mI (645293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (646283) freeRtos_ESP32: Tick Count A: 64601[0m
+[0;32mI (647283) freeRtos_ESP32: Tick Count A: 64701[0m
+[0;32mI (648283) freeRtos_ESP32: Tick Count A: 64801[0m
+[0;32mI (649283) freeRtos_ESP32: Tick Count A: 64901[0m
+[0;32mI (650283) freeRtos_ESP32: Tick Count A: 65001[0m
+[0;32mI (650293) freeRtos_ESP32: Tick Count B: 65002[0m
+[0;32mI (650293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (651283) freeRtos_ESP32: Tick Count A: 65101[0m
+[0;32mI (652283) freeRtos_ESP32: Tick Count A: 65201[0m
+[0;32mI (653283) freeRtos_ESP32: Tick Count A: 65301[0m
+[0;32mI (654283) freeRtos_ESP32: Tick Count A: 65401[0m
+[0;32mI (655283) freeRtos_ESP32: Tick Count A: 65501[0m
+[0;32mI (655293) freeRtos_ESP32: Tick Count B: 65502[0m
+[0;32mI (655293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (656283) freeRtos_ESP32: Tick Count A: 65601[0m
+[0;32mI (657283) freeRtos_ESP32: Tick Count A: 65701[0m
+[0;32mI (658283) freeRtos_ESP32: Tick Count A: 65801[0m
+[0;32mI (659283) freeRtos_ESP32: Tick Count A: 65901[0m
+[0;32mI (660283) freeRtos_ESP32: Tick Count A: 66001[0m
+[0;32mI (660293) freeRtos_ESP32: Tick Count B: 66002[0m
+[0;32mI (660293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (661283) freeRtos_ESP32: Tick Count A: 66101[0m
+[0;32mI (662283) freeRtos_ESP32: Tick Count A: 66201[0m
+[0;32mI (663283) freeRtos_ESP32: Tick Count A: 66301[0m
+[0;32mI (664283) freeRtos_ESP32: Tick Count A: 66401[0m
+[0;32mI (665283) freeRtos_ESP32: Tick Count A: 66501[0m
+[0;32mI (665293) freeRtos_ESP32: Tick Count B: 66502[0m
+[0;32mI (665293) freeRtos_ESP32: Hello from task b with static API [0m
+[0;32mI (666283) freeRtos_ESP32: Tick Count A: 66601[0m
